@@ -1,0 +1,20 @@
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 3966.428 25.594 1251.255
+ "Map Geometry Data" "{5DDFEA22C280F3E8}Assets/JMRC-GTA01.topo"
+ "Satellite background image" "{E5CF544299717612}Assets/JMRC-GTA01.edds"
+}
+DestructionManager : "{E5B570B5F32A7BAE}Prefabs/Systems/Destruction/DestructionManager.et" {
+ coords 3969.854 25.594 1246.991
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 3970.29 25.594 1255.311
+}
+SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
+ coords 3961.104 25.594 1258.798
+}
+RadioBroadcastManager : "{66B93BC296E2F977}Prefabs/Radio/RadioBroadcastManager.et" {
+ coords 3967.543 25.594 1257.218
+}
+SCR_MPDestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
+ coords 3971.701 25.594 1250.699
+}

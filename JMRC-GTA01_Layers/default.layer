@@ -1,0 +1,8 @@
+GenericEntity {
+ components {
+  MeshObject "{627B6A76EF0D844D}" {
+   Object "{790CB9C809DE64B8}Assets/Characters/Animation/AnimTestChar_US_01.xob"
+  }
+ }
+ coords 3388.103 15.469 771.573
+}
