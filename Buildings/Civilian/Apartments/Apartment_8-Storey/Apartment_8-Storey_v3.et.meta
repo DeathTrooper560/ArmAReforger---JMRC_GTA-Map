@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F7D0D1E4A8822BA8}Prefabs/Buildings/Civilian/Apartments/Apartment_8-Storey/Apartment_8-Storey_v3.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
