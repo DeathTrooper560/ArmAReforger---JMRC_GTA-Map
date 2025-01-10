@@ -1,0 +1,31 @@
+StaticModelEntity : "{ADF2602E1AAA8591}Prefabs/Structures/Airport/LightRunway_01/LightRunway_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{56ACD1C4DC78C87B}" {
+   Materials {
+    MaterialAssignClass "{619D2C87964C85E2}" {
+     SourceMaterial "LightRunway_01_Light_Green"
+     AssignedMaterial "{908F4666930C4B5A}Assets/Structures/Airport/LightRunway_01/Data/LightRunway_01_Light_Blue.emat"
+    }
+    MaterialAssignClass "{619D2C87964C85E9}" {
+     SourceMaterial "LightRunway_01_Light_Red"
+     AssignedMaterial "{908F4666930C4B5A}Assets/Structures/Airport/LightRunway_01/Data/LightRunway_01_Light_Blue.emat"
+    }
+   }
+  }
+  RigidBody "{56ACD1C4D3E9DDF0}" {
+   ResponseIndex "TinyDestructible"
+  }
+ }
+ {
+  GenericEntity {
+   ID "5A046B03610CC35C"
+   components {
+    LightSourceVisualizationObject "{5A02839A0D5BE210}" {
+     Size 0.2
+     Color 0 0.003 1 0
+    }
+   }
+  }
+ }
+}

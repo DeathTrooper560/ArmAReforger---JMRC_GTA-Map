@@ -1,0 +1,397 @@
+SCR_DestructibleBuildingEntity : "{5094A4257B7F4FB4}Prefabs/Structures/Houses/Villa/Villa_E_2I01/Villa_E_2I01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ SlotBoneMappings {
+  SlotBoneMappingObject "{50C69D6C57CDCA50}" {
+   BonePrefix "socket_door_int_left_01"
+   Prefab "{851DA78219A892E0}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_02_L_INT_ST_B.et"
+  }
+  SlotBoneMappingObject "{50C6CB9E0B6CDC44}" {
+   BonePrefix "socket_door_int_right_01"
+  }
+  SlotBoneMappingObject "{61B1445330503E7B}" {
+   BonePrefix "socket_door_int_left_02"
+   Prefab "{851DA78219A892E0}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_02_L_INT_ST_B.et"
+  }
+  SlotBoneMappingObject "{61B1445330503E73}" {
+   BonePrefix "socket_door_int_left_03"
+   Prefab "{864BABBFAC109FD9}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_02_L_INT_COV_B.et"
+  }
+  SlotBoneMappingObject "{61B1445330503E6E}" {
+   BonePrefix "socket_door_int_right_02"
+   Prefab "{84B29428EEF881F0}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_02_R_INT_ST_B.et"
+  }
+  SlotBoneMappingObject "{61B1445330503E6C}" {
+   BonePrefix "socket_door_int_right_04"
+   Prefab "{AEF9151F8899FA53}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_02_R_INT_ST_M1.et"
+  }
+ }
+ {
+  GenericEntity : "{15E05DD94334C164}Prefabs/Structures/BuildingParts/Doors/DoorSet_Villa_E_A_RIGHT_EXT_B.et" {
+   ID "61B144533050EEB9"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     PivotID "socket_door_ext_wide_left_01"
+    }
+   }
+  }
+  GenericEntity : "{1A0CAD7682207D3A}Prefabs/Structures/Houses/Villa/Villa_E_2I01/Villa_E_2I01_furniture_01.et" {
+   ID "61B144533050EEB3"
+   coords 0 0 0
+  }
+  $grp Building : "{39FDCEC3771CC9AC}Prefabs/Structures/BuildingParts/Windows/Win_Villa_E_A/Win_Villa_E_A_130x182_22_B.et" {
+   {
+    ID "61B1445330508FA4"
+    components {
+     Hierarchy "{61B1445330503E44}" {
+      Enabled 1
+      PivotID "socket_win_130x182_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "61B1445330508FA5"
+    components {
+     Hierarchy "{61B1445330503E49}" {
+      Enabled 1
+      PivotID "socket_win_130x182_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "61B144533050EE50"
+    components {
+     Hierarchy "{61B1445330503E4B}" {
+      Enabled 1
+      PivotID "socket_win_130x182_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "61B144533050EE52"
+    components {
+     Hierarchy "{61B1445330503E51}" {
+      Enabled 1
+      PivotID "socket_win_bars_130x182_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "61B144533050EE53"
+    components {
+     Hierarchy "{61B1445330503E4C}" {
+      Enabled 1
+      PivotID "socket_win_bars_130x182_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "61B144533050EE5D"
+    components {
+     Hierarchy "{61B1445330503E52}" {
+      Enabled 1
+      PivotID "socket_win_130x182_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{69A8FFE5527CB776}Prefabs/Structures/BuildingParts/Entry/Entry_Direct_01.et" {
+   {
+    ID "61B1445330504E48"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "socket_entry_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "61B1445330504E49"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "socket_entry_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "61B14453305081FF"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "socket_entry_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "61B1445330508FBF"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "socket_entry_flat_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{6B88E0A355E9B94A}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_02_R_INT_COV_B.et" {
+   ID "61B1445330504E4B"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_door_int_right_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{79F622DEBB73D581}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_EXT_COV_B_brown.et" {
+   ID "61B1445330504E4F"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_door_ext_left_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp Building : "{7A896A0090B7EBFE}Prefabs/Structures/BuildingParts/Windows/Win_Villa_E_A/Win_Villa_E_A_70x47_1_B.et" {
+   {
+    ID "61B1445330503E22"
+    components {
+     Hierarchy "{61B1445330503FBB}" {
+      Enabled 1
+      PivotID "socket_win_70x47_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "61B1445330503E25"
+    components {
+     Hierarchy "{61B1445330503FBD}" {
+      Enabled 1
+      PivotID "socket_win_70x47_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "61B1445330504E42"
+    components {
+     Hierarchy "{61B1445330503FBE}" {
+      Enabled 1
+      PivotID "socket_win_70x47_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "61B1445330504E43"
+    components {
+     Hierarchy "{61B1445330503FBC}" {
+      Enabled 1
+      PivotID "socket_win_70x47_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{84B29428EEF881F0}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_02_R_INT_ST_B.et" {
+   ID "61B1445330503E23"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_door_int_right_02"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{851DA78219A892E0}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_02_L_INT_ST_B.et" {
+   {
+    ID "61B1445330503E1A"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_int_left_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "61B1445330503E1D"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_int_left_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{864BABBFAC109FD9}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_02_L_INT_COV_B.et" {
+   ID "61B1445330503E19"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_door_int_left_03"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp Building : "{909AF727690115AC}Prefabs/Structures/BuildingParts/Windows/Win_Villa_E_A/Win_Villa_E_A_195x182_33_B.et" {
+   {
+    ID "61B1445330503E0E"
+    components {
+     Hierarchy "{61B1445330503FAD}" {
+      Enabled 1
+      PivotID "socket_win_195x182_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "61B1445330503E10"
+    components {
+     Hierarchy "{61B1445330503FB1}" {
+      Enabled 1
+      PivotID "socket_win_195x182_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "61B1445330503E11"
+    components {
+     Hierarchy "{61B1445330503FAF}" {
+      Enabled 1
+      PivotID "socket_win_195x182_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "61B1445330503E12"
+    components {
+     Hierarchy "{61B1445330503FB4}" {
+      Enabled 1
+      PivotID "socket_win_bars_195x182_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "61B1445330503E13"
+    components {
+     Hierarchy "{61B1445330503FB3}" {
+      Enabled 1
+      PivotID "socket_win_bars_195x182_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{AE73676ABA995907}Prefabs/Structures/BuildingParts/Entry/Entry_Block_Platform_01_3x12.et" {
+   ID "61B1445330503E0A"
+   components {
+    Hierarchy "{5488F0388A297CDE}" {
+     Enabled 1
+     PivotID "socket_entry_flat_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{AEF9151F8899FA53}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_02_R_INT_ST_M1.et" {
+   ID "61B1445330503E09"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_door_int_right_04"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp Building : "{B3DACAE8AEF1B3C6}Prefabs/Structures/BuildingParts/Windows/Win_Villa_E_A/Win_Villa_E_A_130x72_2_B.et" {
+   {
+    ID "61B1445330503E04"
+    components {
+     Hierarchy "{61B1445330503FA7}" {
+      Enabled 1
+      PivotID "socket_win_130x72_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "61B1445330503E07"
+    components {
+     Hierarchy "{61B1445330503FA9}" {
+      Enabled 1
+      PivotID "socket_win_bars_130x72_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp Building : "{C5B87C3269D526BC}Prefabs/Structures/BuildingParts/Windows/Win_Villa_E_A/Win_Villa_E_A_195x100_3_B.et" {
+   {
+    ID "61B1445330503E02"
+    components {
+     Hierarchy "{61B1445330503FA4}" {
+      Enabled 1
+      PivotID "socket_win_195x100_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "61B1445330503E03"
+    components {
+     Hierarchy "{61B1445330503FA2}" {
+      Enabled 1
+      PivotID "socket_win_195x100_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+}

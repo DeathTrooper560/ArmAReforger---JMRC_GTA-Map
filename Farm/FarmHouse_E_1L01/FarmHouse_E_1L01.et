@@ -1,0 +1,114 @@
+SCR_DestructibleBuildingEntity : "{23ED22AC15AA9EE7}Prefabs/Structures/Houses/Farm/FarmHouse_E_1L01/FarmHouse_E_1L01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ coords 10.579 8.119 34.731
+ {
+  GenericEntity : "{3699B29980A38F7D}Prefabs/Structures/Houses/Farm/FarmHouse_E_1L01/FarmHouse_E_1L01_furniture_01.et" {
+   ID "623500230B638305"
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_01.et" {
+   {
+    ID "6235002682755F0F"
+    coords 1.079 4.005 8.953
+    angleX 0
+    angleY 2.518
+   }
+   {
+    ID "6235002682755F17"
+    coords 2.249 3.991 10.099
+    angleX 0
+    angleY 2.518
+   }
+   {
+    ID "6235002682755F1E"
+    coords 1.44 3.992 10.164
+    angleX 0
+    angleY 2.518
+   }
+   {
+    ID "6235002682755F2C"
+    coords 0.883 4.005 5.269
+    angleX 0
+    angleY 2.518
+   }
+   {
+    ID "6235002682755F34"
+    coords 1.801 4.003 7.708
+    angleX 0
+    angleY 2.518
+   }
+   {
+    ID "6235002682755F3B"
+    coords 1.86 4.005 8.918
+    angleX 0
+    angleY 2.518
+   }
+   {
+    ID "6235002682755F3C"
+    coords 1.008 4.01 7.73
+    angleX 0
+    angleY 2.518
+   }
+   {
+    ID "6235002682755F64"
+    coords 0.636 3.991 10.22
+    angleX 0
+    angleY 2.518
+   }
+   {
+    ID "6235002682755F9D"
+    coords 0.701 3.6 2.014
+    angleX 0
+    angleY 2.518
+   }
+   {
+    ID "6235002682755FBB"
+    coords 1.492 3.591 1.963
+    angleX 0
+    angleY 2.518
+   }
+   {
+    ID "6235002682755FC2"
+    coords 0.819 4.005 4.051
+    angleX 0
+    angleY 2.518
+   }
+   {
+    ID "6235002682755FD2"
+    coords 1.752 4.005 6.453
+    angleX 0
+    angleY 2.518
+   }
+   {
+    ID "6235002682755FD4"
+    coords 0.943 4.005 6.482
+    angleX 0
+    angleY 2.518
+   }
+   {
+    ID "6235002682755FDA"
+    coords 1.71 4.005 5.231
+    angleX 0
+    angleY 2.518
+   }
+   {
+    ID "6235002682755FE0"
+    coords 1.573 3.841 2.908
+    angleX 15.934
+    angleY 2.518
+   }
+   {
+    ID "6235002682755FEB"
+    coords 0.772 3.841 2.93
+    angleX 15.934
+    angleY 2.518
+   }
+   {
+    ID "6235002682755FFF"
+    coords 1.647 4.005 4.015
+    angleX 0
+    angleY 2.518
+   }
+  }
+ }
+}

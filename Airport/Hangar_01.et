@@ -1,0 +1,1180 @@
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SignalsManagerComponent "{619AE071CECB6477}" {
+  }
+  SCR_BuildingSoundComponent "{619AE071CECB6479}" {
+   Filenames {
+    "{660B2050006EE855}Sounds/Structures/Airport/Structures_Hangar_01.acp"
+   }
+   IncludeInactive 1
+   m_iTimeIntervalMin 5
+   m_iTimeIntervalMax 12
+   m_vMins -20 8 -12
+   m_vMaxs 20 11 12
+  }
+  BaseSlotComponent "{619AE071CECB6467}" {
+   AttachType EntitySlotInfo "{51126271F9E88677}" {
+    PivotID "Socket_ramp_01"
+   }
+   EntityPrefab "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Entry/Entry_Slope_Platform_01.et"
+  }
+  BaseSlotComponent "{619AE071CECB647C}" {
+   AttachType EntitySlotInfo "{51126271F1839129}" {
+    PivotID "Socket_ramp_02"
+   }
+   EntityPrefab "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Entry/Entry_Slope_Platform_01.et"
+  }
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{88450B9A63C9F6AE}Assets/Structures/Airport/Hangar_01/Hangar_01.xob"
+  }
+  RigidBody "{506EDA9CBE1B57FF}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 5681.097 19.974 2607.828
+ angleY -119.218
+ Flags 1027
+ SlotBoneMappings {
+  SlotBoneMappingObject "{619AE071CECB6469}" {
+   BonePrefix "socket_window"
+   Prefab "{89B4ABEF7C0210E3}Prefabs/Structures/BuildingParts/Windows/Glass_82x227/Glass_82x227.et"
+  }
+  SlotBoneMappingObject "{619AE071CECB646E}" {
+   BonePrefix "socket_door"
+   Prefab "{559FE84BD8AC6B0C}Prefabs/Structures/BuildingParts/Doors/DoorSet_Industrial_01_EXT.et"
+  }
+  SlotBoneMappingObject "{619AE071CECB646F}" {
+   BonePrefix "socket_ramp"
+   Prefab "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Entry/Entry_Slope_Platform_01.et"
+  }
+ }
+ {
+  $grp GenericEntity : "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Entry/Entry_Slope_Platform_01.et" {
+   {
+    ID "619AE071CEDFE786"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "socket_ramp_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDFE798"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "socket_ramp_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  EnvironmentProbeEntity : "{2F7950BEA2C6D383}Prefabs/Structures/Airport/Probe_Hangar_01.et" {
+   ID "619AE071CEDFE785"
+   coords 0 3.441 -7.354
+  }
+  $grp GenericEntity : "{559FE84BD8AC6B0C}Prefabs/Structures/BuildingParts/Doors/DoorSet_Industrial_01_EXT.et" {
+   {
+    ID "619AE071CEDFE783"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDFE78E"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{6A8B7BD2A7BF0B93}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_03.et" {
+   {
+    ID "619AE071CEDFE78C"
+    coords -13.386 2.697 -14.563
+   }
+   {
+    ID "619AE071CEDFE78D"
+    coords 21.61 2.768 -4.165
+    angleY -90
+   }
+  }
+  $grp GenericEntity : "{89B4ABEF7C0210E3}Prefabs/Structures/BuildingParts/Windows/Glass_82x227/Glass_82x227.et" {
+   {
+    ID "619AE071CEC04707"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_27"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC04718"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_29"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC06270"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_19"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC0A3DE"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_18"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC0B87A"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_22"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC0B87B"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_20"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC16B44"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_36"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC1AFA3"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_25"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC1CCB2"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_24"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC1CCB3"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_26"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC1F726"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_28"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC2208A"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_30"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC27526"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_32"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC2E021"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_34"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC2E022"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_35"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC3443E"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_40"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC3B120"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_31"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC3B121"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_42"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC41130"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_48"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC41131"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_46"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC45985"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_38"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC46189"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_37"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC4EE79"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_41"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC4EE7E"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_39"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC51442"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_52"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC51443"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_56"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC53823"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_54"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC58E34"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_43"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC58E37"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_44"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC5B182"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_45"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC5FE27"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_47"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC61DA3"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_49"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC61DAC"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_50"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC673A2"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_51"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC6BBB0"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_53"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC7236E"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_58"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC75AB4"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_60"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC75AB5"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_62"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEC7CABA"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_61"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECD2050"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECD5ED5"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECD6B21"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECD6B22"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECDDA18"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECE00B6"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_16"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECE00B7"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_17"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECE1229"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_07"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECE4415"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_09"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECE9051"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_10"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECE9056"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_08"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECEBA4F"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_12"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECED81C"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECED81D"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_11"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECF0E44"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_21"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECF7229"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_23"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECF722A"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_13"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECFCB55"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_15"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CECFFD6D"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_14"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CED82353"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_68"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CED87E78"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_57"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CED87E7B"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_67"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CED8E359"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_59"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CED9106B"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_73"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CED9106C"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_74"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CED94F87"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_63"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CED96BE8"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_65"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CED96BE9"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_64"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CED9D67E"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_66"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDA05A4"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_69"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDA05A5"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_71"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDA2980"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_70"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDA9183"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_72"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDB0A19"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_76"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDB7F91"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_81"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDB7F92"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_79"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDBCA92"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_80"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDC4D5B"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_87"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDCA9DE"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_75"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDCA9DF"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_86"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDCFB43"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_78"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDD06A7"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_82"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDD7706"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_84"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDD7739"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_83"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDDC5C2"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_85"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDE66A9"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_91"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDEEA6C"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_93"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDEEA6D"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_92"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDFE58D"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_89"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDFE58E"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_90"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619AE071CEDFE78B"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      Enabled 1
+      PivotID "socket_window_88"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{8F17372BAB5A9CF8}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02.et" {
+   {
+    ID "619AE071CECC0020"
+    coords -5.348 3.88 -14.374
+   }
+   {
+    ID "619AE071CECC0021"
+    coords 5.359 3.88 -14.374
+   }
+   {
+    ID "619AE071CECC2FC1"
+    coords 21.41 3.841 -6.2
+    angleY -90
+   }
+   {
+    ID "619AE071CECC37C8"
+    coords -21.411 3.88 -6.207
+    angleY 90
+   }
+   {
+    ID "619AE071CECC37CB"
+    coords 16.068 3.88 -14.373
+   }
+   {
+    ID "619AE071CECC8A13"
+    coords -16.051 3.88 -14.375
+   }
+   {
+    ID "619AE071CECC908B"
+    coords 21.411 3.841 1.948
+    angleY -90
+   }
+   {
+    ID "619AE071CECDDA16"
+    coords -21.411 3.88 1.96
+    angleY 90
+   }
+  }
+  $grp GenericEntity : "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et" {
+   {
+    ID "619AE071CECB1FA9"
+    coords -21.411 1.322 6.034
+    angleY 90
+   }
+   {
+    ID "619AE071CECC908C"
+    coords -11.535 1.324 -14.563
+   }
+   {
+    ID "619AE071CECC908D"
+    coords 21.41 1.321 -2.123
+    angleY -90
+   }
+   {
+    ID "619AE071CECCC527"
+    coords 10.706 1.338 -14.363
+   }
+  }
+  $grp GenericEntity : "{E34303CB179E13D6}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_01.et" {
+   {
+    ID "619AE071CECB1FAB"
+    coords -20.61 3.884 10.116
+    angleY 90
+   }
+   {
+    ID "619AE071CECB640D"
+    coords 20.61 3.915 10.109
+    angleY -90
+   }
+  }
+ }
+}

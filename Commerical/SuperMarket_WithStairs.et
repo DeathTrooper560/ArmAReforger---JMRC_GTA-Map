@@ -1,0 +1,1081 @@
+SCR_DestructibleBuildingEntity {
+ ID "619D27B1435353E9"
+ components {
+  MeshObject "{619D27B14343785E}" {
+   Object "{B644273F85AA2FBD}Assets/Structures/Commercial/SuperMarket/Supermarket_Withsupport.xob"
+   LODFactors {
+    20 15 10 1
+   }
+   ClutterOccluder 1
+   ClutterOccluderClipPlane 10
+  }
+  RigidBody "{619D27B1434378A4}" {
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{619D27B1434378AA}" {
+  }
+  Hierarchy "{619D27B1434378AB}" {
+  }
+ }
+ coords 1550.947 39.162 2797.355
+ angleY 165
+ SlotBoneMappings {
+  SlotBoneMappingObject "{619D27B1434378AD}" {
+   BonePrefix "socket_door_left_back"
+   Prefab "{EF84E2A0B250AC53}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_01_A_RIGHT_EXT_COV_B.et"
+  }
+  SlotBoneMappingObject "{619D27B1434378B2}" {
+   BonePrefix "socket_window_30x35"
+   Prefab "{EA7E2B51C6D634EF}Prefabs/Structures/BuildingParts/Misc/VentCover_02/VentCover_02_30x35_B.et"
+  }
+  SlotBoneMappingObject "{619D27B1434378B7}" {
+   BonePrefix "socket_door_entrance"
+   Prefab "{C97D2037C275C757}Prefabs/Structures/BuildingParts/Doors/DoorSet_ShopModern_E_EXT_A.et"
+  }
+  SlotBoneMappingObject "{619D27B1434378B5}" {
+   BonePrefix "socket_door_int"
+   Prefab "{66A908B66DC3277A}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_INT_COV_B.et"
+  }
+  SlotBoneMappingObject "{619D27B1434378BB}" {
+   BonePrefix "socket_window_105x90"
+   Prefab "{5F3CD956233E9C8F}Prefabs/Structures/BuildingParts/Windows/Win_Shed_02/Win_Shed_02_105x90.et"
+  }
+  SlotBoneMappingObject "{619D27B1434378B9}" {
+   BonePrefix "socket_window_125x75"
+   Prefab "{5DA96509348E4041}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_125x75.et"
+  }
+  SlotBoneMappingObject "{619D27B1434378BF}" {
+   BonePrefix "socket_window_142x90"
+   Prefab "{1D8048C69DB21CD4}Prefabs/Structures/BuildingParts/Windows/Win_Shed_02/Win_Shed_02_142x90.et"
+  }
+  SlotBoneMappingObject "{619D27B1434378BD}" {
+   BonePrefix "socket_window_150x50"
+   Prefab "{6F81C4ABDA31ED1F}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_150x50.et"
+  }
+  SlotBoneMappingObject "{619D27B143431BBF}" {
+   BonePrefix "socket_window_big"
+   Prefab "{4E4C59F2CFB726B0}Prefabs/Structures/BuildingParts/Windows/Win_ShopModern_E_A_305x240_1_B.et"
+  }
+  SlotBoneMappingObject "{619D27B143431B80}" {
+   BonePrefix "socket_door_right_back"
+   Prefab "{93A43D15BE355D73}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_02_A_SMALL_Right_EXT_COV_B.et"
+  }
+  SlotBoneMappingObject "{619D27B143431B81}" {
+   BonePrefix "socket_door_back"
+   Prefab "{83D0D6400E94237D}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_01_A_LEFT_EXT_COV_B.et"
+  }
+ }
+ {
+  GenericEntity {
+   ID "619D27B1435353E8"
+   coords -7.856 0.492 -13.826
+  }
+  SCR_DestructibleBuildingEntity {
+   ID "619D27B1435353EB"
+   coords -10.375 0.261 -1.145
+  }
+  $grp GenericEntity : "{10D896F6F525B210}Prefabs/Props/Commercial/ShoppingBasket_01_pile.et" {
+   {
+    ID "619D27B143535391"
+    coords -2.134 0.5 -11.391
+    angleY 90
+   }
+   {
+    ID "619D27B143535392"
+    coords -1.658 0.5 -11.391
+    angleY 90
+   }
+   {
+    ID "619D27B14353539C"
+    coords -1.658 0.604 -11.391
+    angleY 90
+   }
+   {
+    ID "619D27B14353539D"
+    coords -2.134 0.604 -11.391
+    angleY 90
+   }
+   {
+    ID "619D27B14353539E"
+    coords -1.658 0.704 -11.391
+    angleY 90
+   }
+   {
+    ID "619D27B14353539F"
+    coords -2.134 0.704 -11.391
+    angleY 90
+   }
+  }
+  $grp GenericEntity : "{1A8450D02D523398}Prefabs/Props/Furniture/CabinetMetal_01_olive_V3.et" {
+   {
+    ID "619D27B1435325FA"
+    coords 1.109 0.5 6.348
+    angleY 90
+   }
+   {
+    ID "619D27B14353539A"
+    coords 1.109 0.5 8.564
+    angleY 90
+   }
+   {
+    ID "619D27B14353539B"
+    coords 5.261 0.5 -11.398
+   }
+  }
+  Building : "{1D8048C69DB21CD4}Prefabs/Structures/BuildingParts/Windows/Win_Shed_02/Win_Shed_02_142x90.et" {
+   ID "619D27B1435325E6"
+   components {
+    Hierarchy "{619D27B143431B88}" {
+     Enabled 1
+     PivotID "socket_window_142x90"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{2F51CBF130077DAA}Prefabs/Structures/BuildingParts/Doors/DoorSet_Services_E_A_Double_UNI_B_EXT.et" {
+   ID "619D27B1435325ED"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_door_entrance"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{4359114EC07F90A9}Prefabs/Props/Civilian/FanCeiling_01.et" {
+   {
+    ID "619D27B1435325EB"
+    coords -2.146 6.013 -5.826
+   }
+   {
+    ID "619D27B14353B125"
+    coords -3.674 6.013 5.724
+   }
+  }
+  GenericEntity : "{4BF528DF7A469909}Prefabs/Props/Construction/PalletJack_01.et" {
+   ID "619D27B14353B11A"
+   coords 6.526 0.5 6.123
+  }
+  $grp Building : "{4E4C59F2CFB726B0}Prefabs/Structures/BuildingParts/Windows/Win_ShopModern_E_A_305x240_1_B.et" {
+   {
+    ID "619D27B143520F84"
+    components {
+     Hierarchy "{619D27B143431B91}" {
+      Enabled 1
+      PivotID "socket_window_big.004"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B143520F85"
+    components {
+     Hierarchy "{619D27B143431B92}" {
+      Enabled 1
+      PivotID "socket_window_big.003"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B143520F8B"
+    components {
+     Hierarchy "{619D27B143431B90}" {
+      Enabled 1
+      PivotID "socket_window_big.005"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1435231D1"
+    components {
+     Hierarchy "{619D27B143431B93}" {
+      Enabled 1
+      PivotID "socket_window_big.002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B14353B119"
+    components {
+     Hierarchy "{619D27B143431B8D}" {
+      Enabled 1
+      PivotID "socket_window_big.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B14353B11C"
+    components {
+     Hierarchy "{619D27B143431B8F}" {
+      Enabled 1
+      PivotID "socket_window_big"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{51D31AB07AE3C1C7}Prefabs/Props/Commercial/CashierShop_01.et" {
+   {
+    ID "619D27B1435231D5"
+    coords -2.315 1.539 -7.745
+    angleY 90
+   }
+   {
+    ID "619D27B143529988"
+    coords -5.123 1.539 -7.84
+    angleY -90
+   }
+   {
+    ID "619D27B14352EB63"
+    coords 1.914 1.539 -6.173
+   }
+  }
+  EnvironmentProbeEntity : "{565470F7BA530E0D}Prefabs/Structures/Core/ProbeHouse_Base.et" {
+   ID "619D27B143529990"
+   coords -2.094 3.013 1.406
+  }
+  $grp GenericEntity : "{5DA96509348E4041}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_125x75.et" {
+   {
+    ID "619D27B143529992"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_window_125x75.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B143529993"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_window_125x75"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp Building : "{5F3CD956233E9C8F}Prefabs/Structures/BuildingParts/Windows/Win_Shed_02/Win_Shed_02_105x90.et" {
+   {
+    ID "619D27B143529998"
+    components {
+     Hierarchy "{619D27B143431B9C}" {
+      Enabled 1
+      PivotID "socket_window_105x90.002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B14352999A"
+    components {
+     Hierarchy "{619D27B143431BE0}" {
+      Enabled 1
+      PivotID "socket_window_105x90.006"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B14352999B"
+    components {
+     Hierarchy "{619D27B143431B9E}" {
+      Enabled 1
+      PivotID "socket_window_105x90.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B14352999C"
+    components {
+     Hierarchy "{619D27B143431B97}" {
+      Enabled 1
+      PivotID "socket_window_105x90.007"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B14352999E"
+    components {
+     Hierarchy "{619D27B143431B9B}" {
+      Enabled 1
+      PivotID "socket_window_105x90.003"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B143529A64"
+    components {
+     Hierarchy "{619D27B143431BE4}" {
+      Enabled 1
+      PivotID "socket_window_105x90.004"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B143529A65"
+    components {
+     Hierarchy "{619D27B143431BE1}" {
+      Enabled 1
+      PivotID "socket_window_105x90.005"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B143529A66"
+    components {
+     Hierarchy "{619D27B143431BE5}" {
+      Enabled 1
+      PivotID "socket_window_105x90"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{613F68B39D0A4A64}Prefabs/Props/Commercial/CoolingBoxShop_01.et" {
+   {
+    ID "619D27B143529A60"
+    coords 0.774 0.5 4.135
+    angleY -90
+   }
+   {
+    ID "619D27B1435C7573"
+    coords 0.774 0.5 2.202
+    angleY -90
+   }
+   {
+    ID "619D27B1435D708F"
+    coords 0.774 0.5 -3.601
+    angleY -90
+   }
+   {
+    ID "619D27B1435DF2C5"
+    coords 0.774 0.5 -1.666
+    angleY -90
+   }
+   {
+    ID "619D27B1435DF2C6"
+    coords 0.774 0.5 0.267
+    angleY -90
+   }
+  }
+  $grp GenericEntity : "{66A908B66DC3277A}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_INT_COV_B.et" {
+   {
+    ID "619D27B1435C757C"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_int.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1435C757D"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_int"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1435C757F"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_int.002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{6F81C4ABDA31ED1F}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_150x50.et" {
+   {
+    ID "619D27B1435C7578"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_window_150x50.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1435C7579"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_window_150x50"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1435CD580"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_window_150x50.002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{814C842990C8569A}Prefabs/Props/Civilian/StepladderWooden_01_Open.et" {
+   ID "619D27B1435CD582"
+   coords 7.306 0.5 0.563
+  }
+  GenericEntity : "{85B2A7E85CA6C656}Prefabs/Props/Services/PhoneWall_01/PhoneWall_01_grey.et" {
+   ID "619D27B1435CD598"
+   coords 7.705 1.859 1.244
+   angleY -90
+  }
+  $grp GenericEntity : "{85FC23A6E1F49BBE}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_02.et" {
+   {
+    ID "619D27B1435C8A2C"
+    coords 3.423 1.955 2.439
+    angleY 90
+   }
+   {
+    ID "619D27B1435C8A2D"
+    coords 3.02 1.955 2.439
+    angleY -90
+   }
+   {
+    ID "619D27B1435CAB36"
+    coords 7.703 1.955 -8.491
+    angleY -90
+   }
+   {
+    ID "619D27B1435CB343"
+    coords 7.703 1.955 7.48
+    angleY -90
+   }
+   {
+    ID "619D27B1435CD595"
+    coords 3.423 1.955 2.614
+    angleY 90
+   }
+  }
+  $grp SCR_DestructibleEntity : "{91C32BF67B654F78}Prefabs/Structures/Walls/Pipe/PipeRailing_03/PipeRailing_03_V2_Start.et" {
+   {
+    ID "619D27B1435CAB31"
+    coords -7.32 0.5 -8.55
+    angleY 1.021
+    scale 0.71
+    placement none
+   }
+   {
+    ID "619D27B1435CAB32"
+    coords 0.232 0.5 -8.599
+    angleY -178.979
+    scale 0.71
+    placement none
+   }
+  }
+  $grp GenericEntity : "{934C28C99D732BDD}Prefabs/Props/Furniture/CabinetMetal_01_olive_V1.et" {
+   {
+    ID "619D27B1435CAB0A"
+    coords 1.116 0.5 7.088
+    angleY 90
+   }
+   {
+    ID "619D27B1435CAB0B"
+    coords 1.116 0.5 9.304
+    angleY 90
+   }
+   {
+    ID "619D27B1435F2A41"
+    coords 4.521 0.5 -11.391
+   }
+  }
+  $grp GenericEntity : "{93A43D15BE355D73}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_02_A_SMALL_Right_EXT_COV_B.et" {
+   {
+    ID "619D27B1435E4A8D"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_right_back"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1435F2A43"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_right_back.003"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1435FB940"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_right_back.002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1435FB94F"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_right_back.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{9C231B6AC1BD0A26}Prefabs/Props/Civilian/Broom_01.et" {
+   ID "619D27B1435E4A8F"
+   coords 3.966 0.541 -7.622
+   angleX 6.803
+  }
+  GenericEntity : "{A8CAAA833D839FEA}Prefabs/Props/Civilian/ClockPunch_01_board.et" {
+   ID "619D27B1435E4A95"
+   coords 3.583 0.455 5.423
+   angleY 0
+  }
+  SCR_DestructibleEntity : "{B3B2276014D9454C}Prefabs/Props/Commercial/SignPub_01_Eden_FoodMarket_V1.et" {
+   ID "619D27B1435E4A97"
+   coords -1.122 0.5 -8.87
+  }
+  $grp GenericEntity : "{B61A08FB644D2050}Prefabs/Props/Furniture/LampFluorescent/LampFluorescent_01_exterior.et" {
+   {
+    ID "619D27B1435E09D6"
+    coords -2.673 6 5.135
+    angleY -90
+   }
+   {
+    ID "619D27B1435E09D7"
+    coords -2.673 6 -4.203
+    angleY -90
+   }
+   {
+    ID "619D27B1435E4A90"
+    coords 5.471 6 3.546
+    angleY -90
+   }
+   {
+    ID "619D27B1435E4A9D"
+    coords 5.471 6 -9.784
+    angleY -90
+   }
+   {
+    ID "619D27B1435E97F0"
+    coords 3.658 6 9.915
+    angleY -90
+   }
+   {
+    ID "619D27B1435E97F3"
+    coords 5.471 6 -4.781
+    angleY -90
+   }
+  }
+  $grp GenericEntity : "{B7669B7F8B7923F6}Prefabs/Props/Commercial/ShelfShop_01.et" {
+   {
+    ID "619D27B143584BE6"
+    coords -4.978 0.5 2.922
+    angleY 90
+   }
+   {
+    ID "619D27B143584BE7"
+    coords -4.978 0.5 7.85
+    angleY 90
+   }
+   {
+    ID "619D27B1435884A9"
+    coords -4.978 0.5 0.458
+    angleY 90
+   }
+   {
+    ID "619D27B1435884D6"
+    coords -4.978 0.5 -2.059
+    angleY -90
+   }
+   {
+    ID "619D27B14358C62D"
+    coords -4.978 0.5 2.87
+    angleY -90
+   }
+   {
+    ID "619D27B14358F24F"
+    coords -4.978 0.5 0.406
+    angleY -90
+   }
+   {
+    ID "619D27B14359157C"
+    coords -4.978 0.5 7.798
+    angleY -90
+   }
+   {
+    ID "619D27B14359157F"
+    coords -2.182 0.5 0.458
+    angleY 90
+   }
+   {
+    ID "619D27B14359F180"
+    coords -2.182 0.5 -2.007
+    angleY 90
+   }
+   {
+    ID "619D27B1435A67E5"
+    coords -2.182 0.5 2.922
+    angleY 90
+   }
+   {
+    ID "619D27B1435A8FB6"
+    coords -4.978 0.5 5.387
+    angleY 90
+   }
+   {
+    ID "619D27B1435ADD31"
+    coords -2.182 0.5 5.387
+    angleY 90
+   }
+   {
+    ID "619D27B1435ADD32"
+    coords -2.182 0.5 5.335
+    angleY -90
+   }
+   {
+    ID "619D27B1435B71EA"
+    coords -4.978 0.5 -2.007
+    angleY 90
+   }
+   {
+    ID "619D27B1435B87D9"
+    coords -2.182 0.5 2.87
+    angleY -90
+   }
+   {
+    ID "619D27B1435BDA12"
+    coords -2.182 0.5 0.406
+    angleY -90
+   }
+   {
+    ID "619D27B1435BDA13"
+    coords -2.182 0.5 7.85
+    angleY 90
+   }
+   {
+    ID "619D27B1435E8F34"
+    coords -2.182 0.5 -2.059
+    angleY -90
+   }
+   {
+    ID "619D27B1435E97F4"
+    coords -4.978 0.5 5.335
+    angleY -90
+   }
+   {
+    ID "619D27B1435E97F5"
+    coords -2.182 0.5 7.798
+    angleY -90
+   }
+  }
+  $grp GenericEntity : "{B9F8987A84B94738}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_03/LampStreet_E_03_addon.et" {
+   {
+    ID "619D27B1435A8FBC"
+    coords 7.962 2.916 8.857
+    angleY 90
+   }
+   {
+    ID "619D27B1435A8FBD"
+    coords 7.962 2.916 -7.833
+    angleY 90
+   }
+  }
+  $grp GenericEntity : "{BAB1151298AA3916}Prefabs/Props/Industrial/BenchIndustrial_01/BenchIndustrial_01.et" {
+   {
+    ID "619D27B14345759B"
+    coords 3.934 0.5 11.971
+   }
+   {
+    ID "619D27B1435A8FB9"
+    coords 3.477 0.5 6.456
+    angleY -90
+   }
+  }
+  GenericEntity : "{BCE07A58672955B9}Prefabs/Props/Civilian/Bucket_01.et" {
+   ID "619D27B143457598"
+   coords 4.255 0.493 -7.587
+  }
+  $grp GenericEntity : "{C67A378521482995}Prefabs/Props/Furniture/Rack_03.et" {
+   {
+    ID "619D27B1434566EF"
+    coords 6.237 0.5 -0.612
+    angleY -90
+   }
+   {
+    ID "619D27B143457586"
+    coords 6.237 0.5 2.954
+    angleY -90
+   }
+  }
+  $grp GenericEntity : "{D19D5E8950BC4DD1}Prefabs/Props/Furniture/ChairOffice_01.et" {
+   {
+    ID "619D27B14345064C"
+    coords -1.685 0.5 -7.64
+    angleY -45
+   }
+   {
+    ID "619D27B1434566EC"
+    coords -5.984 0.5 -7.699
+    angleY 105
+   }
+  }
+  GenericEntity : "{D51E223FD6EDB039}Prefabs/Props/Furniture/ClockWall_01.et" {
+   ID "619D27B14345064A"
+   coords 7.7 3.209 3.233
+   angleY -90
+  }
+  $grp GenericEntity : "{D6E93EF9D3232D16}Prefabs/Props/Commercial/ShelfUniversal_01_wide.et" {
+   {
+    ID "619D27B143450646"
+    coords -5.155 0.5 12.249
+    angleY -180
+   }
+   {
+    ID "619D27B143450647"
+    coords -2.278 0.5 12.249
+    angleY -180
+   }
+   {
+    ID "619D27B1434522F5"
+    coords -6.602 0.5 12.249
+    angleY -180
+   }
+   {
+    ID "619D27B14345F035"
+    coords -0.873 0.5 12.249
+    angleY -180
+   }
+   {
+    ID "619D27B14345F036"
+    coords -3.706 0.5 12.249
+    angleY -180
+   }
+  }
+  SCR_DestructibleEntity : "{DFE61380A81DCA62}Prefabs/Props/Commercial/SignPub_01_Eden_FoodMarket_V2.et" {
+   ID "619D27B14345F037"
+   coords -2.143 0.5 -8.881
+  }
+  $grp GenericEntity : "{E214337C6E1931C5}Prefabs/Props/Commercial/CounterShop_01.et" {
+   {
+    ID "619D27B143441B2C"
+    coords -2.451 0.5 -7.765
+    angleY -90
+   }
+   {
+    ID "619D27B143447549"
+    coords -4.972 0.5 -7.765
+    angleY 90
+   }
+   {
+    ID "619D27B14345F031"
+    coords 2.173 0.5 -6.355
+    angleY -180
+   }
+  }
+  GenericEntity : "{E7EA9EA108001D70}Prefabs/Props/Civilian/ClockPunch_01.et" {
+   ID "619D27B143441B2F"
+   coords 4.374 1.27 5.409
+   angleY 0
+  }
+  $grp GenericEntity : "{EA34FD3A068E550A}Prefabs/Props/Commercial/NewspaperStand_01.et" {
+   {
+    ID "619D27B1434407F4"
+    coords -2.408 0.5 -6.917
+   }
+   {
+    ID "619D27B143441B13"
+    coords -5.015 0.5 -6.917
+   }
+  }
+  $grp GenericEntity : "{EA7E2B51C6D634EF}Prefabs/Structures/BuildingParts/Misc/VentCover_02/VentCover_02_30x35_B.et" {
+   {
+    ID "619D27B1434407F2"
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "socket_window_30x35.009"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B14344E37B"
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "socket_window_30x35.008"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B143461C8C"
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "socket_window_30x35.002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B143465FF4"
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "socket_window_30x35.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B143465FF7"
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "socket_window_30x35.003"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B14346B9E6"
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "socket_window_30x35.010"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B14346B9E7"
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "socket_window_30x35.004"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B14346D246"
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "socket_window_30x35"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B143472306"
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "socket_window_30x35.006"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B143472307"
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "socket_window_30x35.005"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B143476591"
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "socket_window_30x35.007"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B14347F8A6"
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "socket_window_30x35.011"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{EEC781AC391B7400}Prefabs/Props/Commercial/ShoppingCart_01.et" {
+   {
+    ID "619D27B143404F31"
+    coords 2.445 0.5 -11.287
+    angleY -90
+   }
+   {
+    ID "619D27B1434134EE"
+    coords 1.66 0.5 -10.155
+    angleY -90
+   }
+   {
+    ID "619D27B14341B7B2"
+    coords 1.66 0.5 -11.287
+    angleY -90
+   }
+   {
+    ID "619D27B14341B7B5"
+    coords 1.66 0.5 -10.696
+    angleY -90
+   }
+   {
+    ID "619D27B14346B9EA"
+    coords 2.445 0.5 -10.155
+    angleY -90
+   }
+   {
+    ID "619D27B14346B9EB"
+    coords 2.445 0.5 -10.696
+    angleY -90
+   }
+  }
+  GenericEntity : "{F1141DB8B7FA9B9A}Prefabs/Props/Commercial/ShelfUniversal_01_corner.et" {
+   ID "619D27B143404F32"
+   coords -7.743 0.5 11.096
+   angleY -180
+  }
+  GenericEntity : "{F56333F87A4FB433}Prefabs/Props/Commercial/ScaleShop_01/ScaleShop_01_yellow.et" {
+   ID "619D27B143404F2C"
+   coords 2.652 1.539 -6.261
+   angleY 90
+  }
+  $grp GenericEntity : "{FD9D8A63AF629B6F}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_02_A_SMALL_Left_EXT_COV_B.et" {
+   {
+    ID "619D27B143402A4B"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_left_back"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B143404F2E"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_left_back.002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B143404F2F"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_left_back.003"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B14340B674"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_left_back.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{FF181C2921B7A4F3}Prefabs/Props/Furniture/CabinetMetal_01_olive_V2.et" {
+   {
+    ID "619D27B14340AAFB"
+    coords 3.784 0.5 -11.386
+   }
+   {
+    ID "619D27B14340B672"
+    coords 1.121 0.5 10.041
+    angleY 90
+   }
+   {
+    ID "619D27B143437857"
+    coords 1.121 0.5 7.825
+    angleY 90
+   }
+  }
+ }
+}

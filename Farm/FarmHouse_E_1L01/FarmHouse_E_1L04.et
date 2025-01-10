@@ -1,0 +1,5 @@
+SCR_DestructibleBuildingEntity : "{13CFD7AE05C63568}FarmHouse_E_1L03.et" {
+ ID "F0DBA538AC2A0552"
+ coords 0 0 0
+ angleY 0
+}

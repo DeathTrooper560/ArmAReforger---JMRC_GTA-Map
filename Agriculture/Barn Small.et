@@ -1,0 +1,260 @@
+SCR_DestructibleBuildingEntity {
+ ID "619D27B1305C2C86"
+ components {
+  MeshObject "{619D27B130584BD5}" {
+   Object "{9B1516C3EA340A7E}Assets/Structures/Agriculture/Barn_Small/Barn_S.xob"
+   LODFactors {
+    20 15 10 1
+   }
+   ClutterOccluder 1
+  }
+  RigidBody "{619D27B130584BDD}" {
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{619D27B130584BC2}" {
+  }
+  Hierarchy "{619D27B130584BC1}" {
+  }
+ }
+ coords 1666.866 39.52 2879.467
+ SlotBoneMappings {
+  SlotBoneMappingObject "{619D27B130584BC5}" {
+   BonePrefix "socket_door_left"
+   Prefab "{C87C9FBCC286C2A2}Prefabs/Structures/BuildingParts/Doors/Door_Barn_E_01_RIGHT.et"
+  }
+  SlotBoneMappingObject "{619D27B130584BC4}" {
+   BonePrefix "socket_door_right"
+   Prefab "{70BF65A7C7466D48}Prefabs/Structures/BuildingParts/Doors/Door_Barn_E_01_LEFT.et"
+  }
+ }
+ {
+  $grp GenericEntity : "{24DE47095BD6BE7B}Prefabs/Props/Agriculture/Farm/HayBale_01_square_big.et" {
+   {
+    ID "619D27B1305C2C8E"
+    coords -1.137 0.045 1.837
+    angleY -17.279
+   }
+   {
+    ID "619D27B1305C2C8F"
+    coords -1.963 1.253 1.499
+    angleY 75
+   }
+   {
+    ID "619D27B1305FD5DF"
+    coords -2.727 0.045 1.837
+    angleY 0
+   }
+  }
+  GenericEntity : "{2B07A2B8170DF481}Prefabs/Props/Agriculture/CultivatorWreck_01_Damaged.et" {
+   ID "619D27B1305FD5D8"
+   coords 1.304 -0.005 3.66
+   angleY 0
+  }
+  $grp GenericEntity : "{3AB2B7156B3A0F3D}Prefabs/Props/Agriculture/MilkCan_01.et" {
+   {
+    ID "619D27B1305F836C"
+    coords -3.321 -0.06 4.08
+    angleY -31.684
+   }
+   {
+    ID "619D27B1305F9783"
+    coords -2.956 -0.06 4.2
+    angleY -60.799
+   }
+   {
+    ID "619D27B1305FD5E7"
+    coords -2.987 -0.06 3.917
+    angleY 28.408
+   }
+  }
+  EnvironmentProbeEntity : "{565470F7BA530E0D}Prefabs/Structures/Core/ProbeHouse_Base.et" {
+   ID "619D27B1305F8365"
+   coords -0.223 0.686 -5.807
+   angleY 99.038
+  }
+  $grp GenericEntity : "{70BF65A7C7466D48}Prefabs/Structures/BuildingParts/Doors/Door_Barn_E_01_LEFT.et" {
+   {
+    ID "619D27B1305F2651"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_right"
+      AutoTransform 1
+     }
+    }
+    coords -0.015 0 0
+   }
+   {
+    ID "619D27B1305F8367"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_right.001"
+      AutoTransform 1
+     }
+    }
+    coords -0.033 0 0
+   }
+  }
+  $grp GenericEntity : "{BB64FBA6986C62F7}Prefabs/Structures/BuildingParts/Entry/ConcreteSlope_02_MediumVehicle.et" {
+   {
+    ID "619D27B1305EE2D0"
+    coords 4.489 -0.036 -2.16
+    angleY 90
+   }
+   {
+    ID "619D27B1305F2655"
+    coords -4.378 -0.036 -2.16
+    angleY -90
+   }
+  }
+  $grp GenericEntity : "{C87C9FBCC286C2A2}Prefabs/Structures/BuildingParts/Doors/Door_Barn_E_01_RIGHT.et" {
+   {
+    ID "619D27B1305E97E1"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_left"
+      AutoTransform 1
+     }
+    }
+    coords 0.053 0 0
+   }
+   {
+    ID "619D27B1305EE2CE"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_left.002"
+      AutoTransform 1
+     }
+    }
+    coords 0.012 0 0
+   }
+  }
+  GenericEntity : "{C959D3CF939EBBB3}Prefabs/Props/Agriculture/Farm/HayBale_01_square_small.et" {
+   ID "619D27B1305E97E2"
+   coords 3.406 -0.136 -7.884
+   angleY 0
+  }
+  $grp GenericEntity : "{E537DCDB9B3F2278}Prefabs/Props/Agriculture/Farm/HayPile_01.et" {
+   {
+    ID "619D27B130584BA8"
+    coords -0.954 -0.087 1.512
+    angleY 0.269
+   }
+   {
+    ID "619D27B130589404"
+    coords 1.94 4.797 0.787
+    angleX -1.118
+    angleY -145.771
+   }
+   {
+    ID "619D27B130589C3A"
+    coords -1.444 4.787 0.717
+    angleX -0.289
+    angleY -70.768
+    angleZ -1.08
+   }
+   {
+    ID "619D27B130589C3B"
+    coords -1.688 4.789 1.029
+    angleX 1.08
+    angleY 19.227
+    angleZ -0.289
+   }
+   {
+    ID "619D27B13058BBFE"
+    coords 1.811 4.813 1.867
+    angleX -0.968
+    angleY -175.775
+    angleZ 0.559
+   }
+   {
+    ID "619D27B130590797"
+    coords 2.237 4.836 2.966
+    angleY 124.229
+    angleZ 1.118
+   }
+   {
+    ID "619D27B130592CB8"
+    coords -1.675 4.825 3.22
+    angleX 1.118
+    angleY 34.229
+   }
+   {
+    ID "619D27B130592CBB"
+    coords -1.103 -0.081 -6.863
+    angleY 150
+   }
+   {
+    ID "619D27B130594AAE"
+    coords -0.234 0.144 -7.504
+    angleY 75
+   }
+   {
+    ID "619D27B130598CAE"
+    coords 0.506 -0.081 -6.834
+    angleY -120
+   }
+   {
+    ID "619D27B13059BFB6"
+    coords -2.286 -0.073 1.353
+    angleY 116.469
+   }
+   {
+    ID "619D27B13059BFB7"
+    coords -2.283 -0.087 2.75
+    angleY -104.731
+   }
+   {
+    ID "619D27B13059CE19"
+    coords -2.403 -0.065 -8.083
+    angleY 171.825
+   }
+   {
+    ID "619D27B1305E0096"
+    coords 2.64 -0.107 -7.792
+    angleY 135
+   }
+   {
+    ID "619D27B1305E0099"
+    coords -2.172 -0.12 -7.3
+    angleY -53.174
+   }
+   {
+    ID "619D27B1305E3B7B"
+    coords 1.902 -0.107 -8.444
+    angleY -75
+   }
+   {
+    ID "619D27B1305E50FA"
+    coords 0.961 -0.107 -7.513
+    angleY -120
+   }
+   {
+    ID "619D27B1305E50FB"
+    coords 0.217 -0.107 -8.318
+    angleY -75
+   }
+   {
+    ID "619D27B1305E7ACE"
+    coords -2.124 -0.132 -8.76
+    angleY -90
+   }
+   {
+    ID "619D27B1305E97E7"
+    coords -1.754 -0.132 -7.721
+    angleY 150
+   }
+  }
+  GenericEntity : "{FBC8A28A5C908D2F}Prefabs/Props/Agriculture/Cartwheel_01.et" {
+   ID "619D27B130584BAE"
+   coords -1.25 -0.069 4.907
+   angleX -7.581
+   angleY 1.378
+   angleZ 7.54
+  }
+ }
+}

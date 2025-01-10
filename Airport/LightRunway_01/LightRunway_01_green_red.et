@@ -1,0 +1,46 @@
+StaticModelEntity : "{ADF2602E1AAA8591}Prefabs/Structures/Airport/LightRunway_01/LightRunway_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  RigidBody "{56ACD1C4D3E9DDF0}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{56D0E5E06436D140}" {
+   m_DestroySpawnObjects {
+    SCR_PrefabSpawnable "{619D2C87999A4150}" {
+     m_Prefabs {
+      "{918C3EE0F9250D69}Prefabs/Structures/Airport/LightRunway_01/Dst/LightRunway_01_dst_green_red.et"
+     }
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "5A046B03610CC35C"
+   components {
+    LightSourceVisualizationObject "{5A02839A0D5BE210}" {
+     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
+     Size 0.1
+     Color 0.328 0.961 0.328 0
+     LV 2
+     ConeAngle 180
+    }
+   }
+   coords 0 0.402 0
+   angleY -180
+  }
+  GenericEntity : "{6FD4268EA745B585}Prefabs/Structures/Airport/LightRunway_01/LightRunway_01_light.et" {
+   ID "619D2C87999A414D"
+   components {
+    LightSourceVisualizationObject "{5A02839A0D5BE210}" {
+     Material "{256A40F608390FD8}Common/Materials/LightSourceVisualization/LightSourceVisualization_base.emat"
+     Size 0.1
+     Color 0.961 0.031 0.031 0
+     LV 2
+     ConeAngle 180
+    }
+   }
+   coords 0 0.402 0
+  }
+ }
+}

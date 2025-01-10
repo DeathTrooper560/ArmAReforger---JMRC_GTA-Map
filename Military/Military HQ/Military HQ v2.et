@@ -1,0 +1,25 @@
+SCR_DestructibleBuildingEntity : "{94535842A7947BE6}Prefabs/Structures/Houses/Military/Military HQ/Military HQ.et" {
+ ID "5E68ACA9A21BA784"
+ components {
+  MeshObject "{5E67039D639CF881}" {
+   Materials {
+    MaterialAssignClass "{619D27B166260C82}" {
+     SourceMaterial "Exterior"
+     AssignedMaterial "{E850AB553ECE0048}Assets/Houses/Military/Military HQ Building/Data/Exterior_02.emat"
+    }
+   }
+  }
+  RigidBody "{5E67039D79C91A74}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 1537.109 39.28 2754.84
+ angleY -45.29
+ {
+  EnvironmentProbeEntity {
+   ID "5E68ACA9A21BA7FC"
+   coords -3.696 2.662 -0.125
+  }
+ }
+}

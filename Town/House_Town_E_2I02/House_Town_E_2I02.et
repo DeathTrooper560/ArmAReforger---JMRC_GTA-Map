@@ -1,0 +1,37 @@
+SCR_DestructibleBuildingEntity : "{10DB3EEB6DB494AD}Prefabs/Structures/Houses/Town/House_Town_E_2I02/House_Town_E_2I02_Base.et" {
+ ID "F0DBA538AC2A0552"
+ coords 9713.386 0.001 1476.014
+ angleY 74.719
+ {
+  GenericEntity {
+   ID "5584D0F3A280759E"
+   components {
+    MeshObject "{51C4DA208DB0E200}" {
+     Materials {
+      MaterialAssignClass "{61B144530EEC84E3}" {
+       SourceMaterial "Common/Materials/Glass_generic"
+       AssignedMaterial "{95C204D12167FDDE}Assets/Structures/BuildingsParts/Windows/Data/window_glass_INT.emat"
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5584D0F3A28075B1"
+   components {
+    MeshObject "{51C4DA208DB0E200}" {
+     Materials {
+      MaterialAssignClass "{61B144530EEC84FB}" {
+       SourceMaterial "Common/Materials/Glass_generic"
+       AssignedMaterial "{95C204D12167FDDE}Assets/Structures/BuildingsParts/Windows/Data/window_glass_INT.emat"
+      }
+     }
+    }
+   }
+  }
+  GenericEntity : "{D81A03126A4E3067}Prefabs/Structures/Houses/Town/House_Town_E_2I02/House_Town_E_2I02_furniture_01.et" {
+   ID "61B144530EEC8526"
+   coords 0 0 0
+  }
+ }
+}

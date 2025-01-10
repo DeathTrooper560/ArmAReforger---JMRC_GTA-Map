@@ -1,0 +1,39 @@
+SCR_DestructibleBuildingEntity : "{D1E6866215726CA5}Prefabs/Structures/Houses/Farm/FarmHouse_E_1L01/FarmHouse_E_1L02.et" {
+ ID "F0DBA538AC2A0552"
+ coords 4753.209 19.532 1351.806
+ angleY 38.639
+ Flags 1027
+ {
+  GenericEntity {
+   ID "623509A23B2ADAB5"
+   coords 1.881 4.112 8.211
+  }
+  GenericEntity {
+   ID "623509A23B2ADB51"
+   coords 1.089 4.108 8.207
+  }
+  $grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_01.et" {
+   {
+    ID "623509A30C895621"
+    coords 1.446 4.315 9.214
+    angleX -0.064
+    angleY -0.375
+    angleZ 0.532
+   }
+   {
+    ID "623509A30C89562B"
+    coords 2.24 4.314 9.205
+    angleX -0.064
+    angleY -0.375
+    angleZ -0.176
+   }
+   {
+    ID "623509A30C8956CF"
+    coords 0.642 4.321 9.207
+    angleX -0.064
+    angleY -0.375
+    angleZ -1.268
+   }
+  }
+ }
+}

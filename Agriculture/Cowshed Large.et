@@ -1,0 +1,1350 @@
+SCR_DestructibleBuildingEntity {
+ ID "619D27B12E2714F8"
+ components {
+  MeshObject "{619D27B12E36FA47}" {
+   Object "{583742D2E940277C}Assets/Structures/Agriculture/CowshedBarnLarge/LargeBarn.xob"
+   LODFactors {
+    20 15 10 1
+   }
+   ClutterOccluder 1
+  }
+  RigidBody "{619D27B12E36FA50}" {
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{619D27B12E36FA52}" {
+  }
+  Hierarchy "{619D27B12E36FA54}" {
+  }
+ }
+ coords 1417.043 38.83 2844.827
+ angleY 75
+ SlotBoneMappings {
+  SlotBoneMappingObject "{619D27B12E36FA59}" {
+   BonePrefix "socket_130x142"
+   Prefab "{B414B00FF8122E13}Prefabs/Structures/BuildingParts/Windows/Win_Cowshed_E/win_cowshed_e_130x142_11_B.et"
+  }
+  SlotBoneMappingObject "{619D27B12E36FA5A}" {
+   BonePrefix "DoorLarge_R"
+   Prefab "{C87C9FBCC286C2A2}Prefabs/Structures/BuildingParts/Doors/Door_Barn_E_01_RIGHT.et"
+  }
+  SlotBoneMappingObject "{619D27B12E36FA5B}" {
+   BonePrefix "DoorLarge_L"
+   Prefab "{70BF65A7C7466D48}Prefabs/Structures/BuildingParts/Doors/Door_Barn_E_01_LEFT.et"
+  }
+  SlotBoneMappingObject "{619D27B12E36FA5C}" {
+   BonePrefix "Socket_130x72"
+   Prefab "{7DFB7E48F3F5413E}Prefabs/Structures/BuildingParts/Windows/Win_Cowshed_E/win_cowshed_e_130x72_1_M1.et"
+  }
+  SlotBoneMappingObject "{619D27B12E3650CB}" {
+   BonePrefix "socket_door_R"
+   Prefab "{270728E69E8B2D7E}Prefabs/Structures/BuildingParts/Doors/Door_HouseAddon_Shed_E_R_EXT_COV_01.et"
+  }
+  SlotBoneMappingObject "{619D27B12E3650C8}" {
+   BonePrefix "socket_door_L"
+   Prefab "{9D6C69116A1DE3B0}Prefabs/Structures/BuildingParts/Doors/Door_HouseAddon_Shed_E_L_EXT_COV_01.et"
+  }
+  SlotBoneMappingObject "{619D27B12E3650F7}" {
+   BonePrefix "Socket_Small_Door"
+   Prefab "{C972DC1485E7D56A}Prefabs/Structures/BuildingParts/Doors/Door_Cowshed_Left_EXT_COV_B.et"
+  }
+  SlotBoneMappingObject "{619D27B12E3650F6}" {
+   BonePrefix "Socket_entry"
+   Prefab "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Entry/Entry_Slope_Platform_01.et"
+  }
+ }
+ {
+  GenericEntity : "{0879933F4FDD2C2B}Prefabs/Props/Civilian/SackUniversal_01_Pile.et" {
+   ID "619D27B12E2714C1"
+   coords 3.415 1 33.669
+  }
+  GenericEntity : "{0B0479E79F7D60D5}Prefabs/Props/Industrial/Pallets/MarsBox_01_blue.et" {
+   ID "619D27B12E2714CA"
+   coords -5.605 1 28.178
+  }
+  $grp GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_01_Pile.et" {
+   {
+    ID "619D27B12E2714C8"
+    coords -3.771 1 29.623
+    angleY -90
+   }
+   {
+    ID "619D27B12E2714C9"
+    coords -4.105 1 33.731
+    angleY 0
+   }
+  }
+  $grp GenericEntity : "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Entry/Entry_Slope_Platform_01.et" {
+   {
+    ID "619D27B12E2699C6"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "Socket_entry.004"
+      AutoTransform 1
+     }
+    }
+    coords 0 0.266 0
+   }
+   {
+    ID "619D27B12E2699C7"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "Socket_entry"
+      AutoTransform 1
+     }
+    }
+    coords 0 0.482 0
+   }
+   {
+    ID "619D27B12E2714D4"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "Socket_entry.002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0.051 0
+   }
+   {
+    ID "619D27B12E2714D7"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "Socket_entry.003"
+      AutoTransform 1
+     }
+    }
+    coords 0 0.294 0
+   }
+   {
+    ID "619D27B12E274D4C"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "Socket_entry.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0.022 0
+   }
+  }
+  GenericEntity : "{24DE47095BD6BE7B}Prefabs/Props/Agriculture/Farm/HayBale_01_square_big.et" {
+   ID "619D27B12E2699C2"
+   coords 3.058 1 29.758
+   angleY 90
+  }
+  $grp GenericEntity : "{270728E69E8B2D7E}Prefabs/Structures/BuildingParts/Doors/Door_HouseAddon_Shed_E_R_EXT_COV_01.et" {
+   {
+    ID "619D27B12E26111B"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_R.003"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E2699CF"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_R.002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 -0.071
+   }
+   {
+    ID "619D27B12E26E65E"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_R"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 -0.033
+   }
+   {
+    ID "619D27B12E26E65F"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_R.004"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 -0.062
+   }
+  }
+  GenericEntity : "{2B0BD0720F8FB3A7}Prefabs/Props/Industrial/Workbench_Vice_01.et" {
+   ID "619D27B12E26111D"
+   coords -2.462 1.96 -37.269
+   angleY 90
+  }
+  $grp GenericEntity : "{2BF58454BEAB913D}Prefabs/Props/Industrial/Pallets/WoodenPalletBox_01_Wood.et" {
+   {
+    ID "619D27B12E25C2D8"
+    coords -6.146 1.98 21.251
+    angleY -90
+   }
+   {
+    ID "619D27B12E25E01C"
+    coords -3.91 1 32.12
+    angleY -90
+   }
+   {
+    ID "619D27B12E25E01F"
+    coords -7.71 1.98 21.251
+    angleY -90
+   }
+   {
+    ID "619D27B12E261160"
+    coords -7.924 1 21.251
+    angleY -90
+   }
+   {
+    ID "619D27B12E267FCA"
+    coords -6.768 1 21.251
+    angleY -90
+   }
+   {
+    ID "619D27B12E267FCB"
+    coords -5.613 1 21.251
+    angleY -90
+   }
+  }
+  $grp GenericEntity : "{3AB2B7156B3A0F3D}Prefabs/Props/Agriculture/MilkCan_01.et" {
+   {
+    ID "619D27B12E25E018"
+    coords 3.862 1 -34.428
+    angleY 45
+   }
+   {
+    ID "619D27B12E25E9BA"
+    coords 4.209 1 -34.249
+    angleY 0
+   }
+   {
+    ID "619D27B12E25E9BB"
+    coords 3.895 1 -34.055
+    angleY -120
+   }
+  }
+  GenericEntity : "{46A95C6081A28586}Prefabs/Props/Industrial/Pallets/MarsBox_01_white.et" {
+   ID "619D27B12E25E9B4"
+   coords -5.617 1 30.992
+  }
+  GenericEntity : "{4BE795374BE3D67E}Prefabs/Props/Industrial/BarrelFuel_01_closed.et" {
+   ID "619D27B12E25E9B0"
+   coords 2.376 1 -38.581
+  }
+  $grp GenericEntity : "{51B08BDA20AF8FF7}Prefabs/Props/Industrial/Pallets/WoodenPalletBox_01.et" {
+   {
+    ID "619D27B12E252200"
+    coords -5.585 1 22.701
+   }
+   {
+    ID "619D27B12E252201"
+    coords -3.881 1 30.667
+   }
+   {
+    ID "619D27B12E25E9B2"
+    coords -5.965 1 24.914
+   }
+  }
+  EnvironmentProbeEntity : "{565470F7BA530E0D}Prefabs/Structures/Core/ProbeHouse_Base.et" {
+   ID "619D27B12E25221D"
+   coords -0.568 2.608 -0.869
+  }
+  $grp GenericEntity : "{57237781CE749464}Prefabs/Props/Agriculture/Farm/Trough_01.et" {
+   {
+    ID "619D27B12E2071A8"
+    coords -4.196 1 6.898
+    angleY 0
+   }
+   {
+    ID "619D27B12E2071A9"
+    coords -4.196 1 10.537
+    angleY 0
+   }
+   {
+    ID "619D27B12E20C3C1"
+    coords -4.196 1 3.196
+    angleY 0
+   }
+   {
+    ID "619D27B12E20C3C6"
+    coords -4.196 1 -0.549
+    angleY 0
+   }
+   {
+    ID "619D27B12E20F7EE"
+    coords -4.196 1 -4.081
+    angleY 0
+   }
+   {
+    ID "619D27B12E2142E9"
+    coords -4.196 1 17.592
+    angleY 0
+   }
+   {
+    ID "619D27B12E218BDD"
+    coords -4.196 1 -18.124
+    angleY 0
+   }
+   {
+    ID "619D27B12E218BDE"
+    coords -4.196 1 -21.734
+    angleY 0
+   }
+   {
+    ID "619D27B12E21D794"
+    coords -4.196 1 -25.286
+    angleY 0
+   }
+   {
+    ID "619D27B12E21D80C"
+    coords 4.283 1 10.553
+    angleY 0
+   }
+   {
+    ID "619D27B12E21D80D"
+    coords 4.283 1 14.163
+    angleY 0
+   }
+   {
+    ID "619D27B12E2202A4"
+    coords -4.196 1 -10.913
+    angleY 0
+   }
+   {
+    ID "619D27B12E2202A5"
+    coords -4.196 1 -14.465
+    angleY 0
+   }
+   {
+    ID "619D27B12E2245E9"
+    coords -4.196 1 -7.483
+    angleY 0
+   }
+   {
+    ID "619D27B12E2295B4"
+    coords -4.196 1 14.163
+    angleY 0
+   }
+   {
+    ID "619D27B12E2295BB"
+    coords 4.283 1 -21.734
+    angleY 0
+   }
+   {
+    ID "619D27B12E2345A6"
+    coords 4.283 1 6.783
+    angleY 0
+   }
+   {
+    ID "619D27B12E23D126"
+    coords 4.283 1 17.592
+    angleY 0
+   }
+   {
+    ID "619D27B12E23D127"
+    coords 4.283 1 3.085
+    angleY 0
+   }
+   {
+    ID "619D27B12E24233D"
+    coords 4.283 1 -7.486
+    angleY 0
+   }
+   {
+    ID "619D27B12E24233E"
+    coords 4.283 1 -4.002
+    angleY 0
+   }
+   {
+    ID "619D27B12E24541D"
+    coords 4.283 1 -0.485
+    angleY 0
+   }
+   {
+    ID "619D27B12E24CBA4"
+    coords 4.283 1 -10.913
+    angleY 0
+   }
+   {
+    ID "619D27B12E25221A"
+    coords 4.283 1 -25.286
+    angleY 0
+   }
+   {
+    ID "619D27B12E257B62"
+    coords 4.283 1 -14.465
+    angleY 0
+   }
+   {
+    ID "619D27B12E257B63"
+    coords 4.283 1 -18.124
+    angleY 0
+   }
+  }
+  GenericEntity : "{64A37FE9287F1A77}Prefabs/Props/Industrial/Workbench_02.et" {
+   ID "619D27B12E2071AA"
+   coords -2.759 1 -38.349
+   angleY 90
+  }
+  $grp GenericEntity : "{67D13407B9B9D626}Prefabs/Props/Industrial/Pallets/MarsBox_01_wood.et" {
+   {
+    ID "619D27B12E207194"
+    coords -5.565 1 33.799
+    angleY -180
+   }
+   {
+    ID "619D27B12E2071AB"
+    coords -5.581 1 32.453
+    angleY -180
+   }
+  }
+  GenericEntity : "{6DD0648BB7A52420}Prefabs/Props/Civilian/Wheelbarrow_01.et" {
+   ID "619D27B12E207196"
+   coords 5.559 2.025 33.714
+   angleX -82.233
+   angleY -180
+   angleZ 180
+  }
+  $grp GenericEntity : "{6FD54E69CFDD6B07}Prefabs/Props/Industrial/BarrelFuel_01_closed_old.et" {
+   {
+    ID "619D27B12E207190"
+    coords 2.775 1 -36.284
+   }
+   {
+    ID "619D27B12E207197"
+    coords 2.639 1 -39.257
+   }
+  }
+  GenericEntity : "{70BF65A7C7466D48}Prefabs/Structures/BuildingParts/Doors/Door_Barn_E_01_LEFT.et" {
+   ID "619D27B12E207192"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     Enabled 1
+     PivotID "doorLarge_L"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{7BB30759D09C70B5}Prefabs/Props/Civilian/StepladderWooden_01.et" {
+   ID "619D27B12E20719D"
+   coords 4.465 1 30.685
+   angleX 3.127
+   angleY -91.88
+  }
+  GenericEntity : "{7BBFCFCCEE86C4AD}Prefabs/Props/Agriculture/RakeManure_01.et" {
+   ID "619D27B12E20719F"
+   coords 3.134 1 -34.095
+   angleX 15.73
+  }
+  GenericEntity : "{7D52C517720EF2F5}Prefabs/Props/Industrial/BarrelMetal_01_blue.et" {
+   ID "619D27B12E207199"
+   coords 2.647 1 -35.557
+  }
+  GenericEntity : "{7D52C517720EF2F6}Prefabs/Props/Industrial/BarrelMetal_01_grey.et" {
+   ID "619D27B12E20719A"
+   coords -2.652 1 -36.493
+  }
+  Building : "{7DFB7E48F3F5413E}Prefabs/Structures/BuildingParts/Windows/Win_Cowshed_E/win_cowshed_e_130x72_1_M1.et" {
+   ID "619D27B12E207185"
+   components {
+    Hierarchy "{619D27B12E3650E2}" {
+     Enabled 1
+     PivotID "Socket_130x72"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{814C842990C8569A}Prefabs/Props/Civilian/StepladderWooden_01_Open.et" {
+   ID "619D27B12E207180"
+   coords 4.015 1 32.317
+  }
+  $grp GenericEntity : "{82DDDA574CB4F0D9}Prefabs/Props/Industrial/BarrelFuel_01_Base.et" {
+   {
+    ID "619D27B12E207181"
+    coords 1.983 1 -39.188
+   }
+   {
+    ID "619D27B12E3FC48E"
+    coords 2.172 1 -36.023
+   }
+  }
+  GenericEntity : "{84B029EBE9BD61C8}Prefabs/Props/Industrial/Pallets/MarsBoxContainer_01.et" {
+   ID "619D27B12E3FC482"
+   coords -3.944 1 25.531
+   angleY 90
+  }
+  GenericEntity : "{88A1A9164B53E2E5}Prefabs/Props/Industrial/Pallets/MarsBox_01_green.et" {
+   ID "619D27B12E3FC481"
+   coords -5.617 1 29.596
+  }
+  $grp GenericEntity : "{9D6C69116A1DE3B0}Prefabs/Structures/BuildingParts/Doors/Door_HouseAddon_Shed_E_L_EXT_COV_01.et" {
+   {
+    ID "619D27B12E3F5BDB"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_L"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0.033
+   }
+   {
+    ID "619D27B12E3FC487"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_L.004"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0.062
+   }
+   {
+    ID "619D27B12E3FE2E6"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_L.002"
+      AutoTransform 1
+     }
+    }
+    coords -0.023 0 0.071
+   }
+   {
+    ID "619D27B12E3FE2E7"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_L.003"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp Building : "{B414B00FF8122E13}Prefabs/Structures/BuildingParts/Windows/Win_Cowshed_E/win_cowshed_e_130x142_11_B.et" {
+   {
+    ID "619D27B12E3B3F05"
+    components {
+     Hierarchy "{619D27B12E36503C}" {
+      Enabled 1
+      PivotID "Socket_130x142.036"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3B3F3A"
+    components {
+     Hierarchy "{619D27B12E36503B}" {
+      Enabled 1
+      PivotID "Socket_130x142.035"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3B3F3B"
+    components {
+     Hierarchy "{619D27B12E36503A}" {
+      Enabled 1
+      PivotID "Socket_130x142.044"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3B5AC4"
+    components {
+     Hierarchy "{619D27B12E365027}" {
+      Enabled 1
+      PivotID "Socket_130x142.041"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3B5AC5"
+    components {
+     Hierarchy "{619D27B12E365038}" {
+      Enabled 1
+      PivotID "Socket_130x142.042"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3B5AC6"
+    components {
+     Hierarchy "{619D27B12E365039}" {
+      Enabled 1
+      PivotID "Socket_130x142.043"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3B71DA"
+    components {
+     Hierarchy "{619D27B12E365026}" {
+      Enabled 1
+      PivotID "Socket_130x142.040"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3BB538"
+    components {
+     Hierarchy "{619D27B12E365032}" {
+      Enabled 1
+      PivotID "Socket_130x142.052"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3BB53E"
+    components {
+     Hierarchy "{619D27B12E365030}" {
+      Enabled 1
+      PivotID "Socket_130x142.050"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3BB53F"
+    components {
+     Hierarchy "{619D27B12E365031}" {
+      Enabled 1
+      PivotID "Socket_130x142.051"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3BEA54"
+    components {
+     Hierarchy "{619D27B12E36503F}" {
+      Enabled 1
+      PivotID "Socket_130x142.039"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3BEA56"
+    components {
+     Hierarchy "{619D27B12E36503D}" {
+      Enabled 1
+      PivotID "Socket_130x142.037"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3BEA57"
+    components {
+     Hierarchy "{619D27B12E36503E}" {
+      Enabled 1
+      PivotID "Socket_130x142.038"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3C0622"
+    components {
+     Hierarchy "{619D27B12E365008}" {
+      Enabled 1
+      PivotID "Socket_130x142.049"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3C062C"
+    components {
+     Hierarchy "{619D27B12E365036}" {
+      Enabled 1
+      PivotID "Socket_130x142.047"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3C062D"
+    components {
+     Hierarchy "{619D27B12E365037}" {
+      Enabled 1
+      PivotID "Socket_130x142.048"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3C7401"
+    components {
+     Hierarchy "{619D27B12E365035}" {
+      Enabled 1
+      PivotID "Socket_130x142.046"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3C7402"
+    components {
+     Hierarchy "{619D27B12E365034}" {
+      Enabled 1
+      PivotID "Socket_130x142.045"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3C7403"
+    components {
+     Hierarchy "{619D27B12E365033}" {
+      Enabled 1
+      PivotID "Socket_130x142.053"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3CC056"
+    components {
+     Hierarchy "{619D27B12E365009}" {
+      Enabled 1
+      PivotID "Socket_130x142.003"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3CC057"
+    components {
+     Hierarchy "{619D27B12E36500A}" {
+      Enabled 1
+      PivotID "Socket_130x142.004"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3D5434"
+    components {
+     Hierarchy "{619D27B12E36500D}" {
+      Enabled 1
+      PivotID "Socket_130x142"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3D5435"
+    components {
+     Hierarchy "{619D27B12E36500C}" {
+      Enabled 1
+      PivotID "Socket_130x142.006"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3D5436"
+    components {
+     Hierarchy "{619D27B12E36500B}" {
+      Enabled 1
+      PivotID "Socket_130x142.005"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3D8D3C"
+    components {
+     Hierarchy "{619D27B12E365019}" {
+      Enabled 1
+      PivotID "Socket_130x142.021"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3D8D3D"
+    components {
+     Hierarchy "{619D27B12E365018}" {
+      Enabled 1
+      PivotID "Socket_130x142.011"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3D8D3E"
+    components {
+     Hierarchy "{619D27B12E365007}" {
+      Enabled 1
+      PivotID "Socket_130x142.010"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3D98EF"
+    components {
+     Hierarchy "{619D27B12E365004}" {
+      Enabled 1
+      PivotID "Socket_130x142.007"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3D98F0"
+    components {
+     Hierarchy "{619D27B12E365005}" {
+      Enabled 1
+      PivotID "Socket_130x142.008"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3D98F1"
+    components {
+     Hierarchy "{619D27B12E365006}" {
+      Enabled 1
+      PivotID "Socket_130x142.009"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3DDCF4"
+    components {
+     Hierarchy "{619D27B12E365002}" {
+      Enabled 1
+      PivotID "Socket_130x142.014"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3DDCF5"
+    components {
+     Hierarchy "{619D27B12E365003}" {
+      Enabled 1
+      PivotID "Socket_130x142.015"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3DDCF7"
+    components {
+     Hierarchy "{619D27B12E365001}" {
+      Enabled 1
+      PivotID "Socket_130x142.013"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3DEDD3"
+    components {
+     Hierarchy "{619D27B12E36500E}" {
+      Enabled 1
+      PivotID "Socket_130x142.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3DEDD4"
+    components {
+     Hierarchy "{619D27B12E36500F}" {
+      Enabled 1
+      PivotID "Socket_130x142.002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3DEDD5"
+    components {
+     Hierarchy "{619D27B12E365000}" {
+      Enabled 1
+      PivotID "Socket_130x142.012"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3E13BC"
+    components {
+     Hierarchy "{619D27B12E36501F}" {
+      Enabled 1
+      PivotID "Socket_130x142.017"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3E13BD"
+    components {
+     Hierarchy "{619D27B12E36501E}" {
+      Enabled 1
+      PivotID "Socket_130x142.016"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3E13BE"
+    components {
+     Hierarchy "{619D27B12E36501D}" {
+      Enabled 1
+      PivotID "Socket_130x142.025"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3E5212"
+    components {
+     Hierarchy "{619D27B12E36501C}" {
+      Enabled 1
+      PivotID "Socket_130x142.024"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3E5213"
+    components {
+     Hierarchy "{619D27B12E36501B}" {
+      Enabled 1
+      PivotID "Socket_130x142.023"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3E5214"
+    components {
+     Hierarchy "{619D27B12E36501A}" {
+      Enabled 1
+      PivotID "Socket_130x142.022"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3EE5B4"
+    components {
+     Hierarchy "{619D27B12E365011}" {
+      Enabled 1
+      PivotID "Socket_130x142.019"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3EE5B5"
+    components {
+     Hierarchy "{619D27B12E365012}" {
+      Enabled 1
+      PivotID "Socket_130x142.020"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3EE5BB"
+    components {
+     Hierarchy "{619D27B12E365010}" {
+      Enabled 1
+      PivotID "Socket_130x142.018"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3F5BD9"
+    components {
+     Hierarchy "{619D27B12E3650ED}" {
+      Enabled 1
+      PivotID "Socket_130x142.029"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3F5C24"
+    components {
+     Hierarchy "{619D27B12E3650E9}" {
+      Enabled 1
+      PivotID "Socket_130x142.026"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3F5C25"
+    components {
+     Hierarchy "{619D27B12E3650E8}" {
+      Enabled 1
+      PivotID "Socket_130x142.034"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3F5C26"
+    components {
+     Hierarchy "{619D27B12E3650EB}" {
+      Enabled 1
+      PivotID "Socket_130x142.028"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3F5C27"
+    components {
+     Hierarchy "{619D27B12E3650EA}" {
+      Enabled 1
+      PivotID "Socket_130x142.027"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3F6778"
+    components {
+     Hierarchy "{619D27B12E365013}" {
+      Enabled 1
+      PivotID "Socket_130x142.030"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3F677A"
+    components {
+     Hierarchy "{619D27B12E365015}" {
+      Enabled 1
+      PivotID "Socket_130x142.032"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3F677B"
+    components {
+     Hierarchy "{619D27B12E365014}" {
+      Enabled 1
+      PivotID "Socket_130x142.031"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E3F677D"
+    components {
+     Hierarchy "{619D27B12E365016}" {
+      Enabled 1
+      PivotID "Socket_130x142.033"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{C87C9FBCC286C2A2}Prefabs/Structures/BuildingParts/Doors/Door_Barn_E_01_RIGHT.et" {
+   ID "619D27B12E3B71DC"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     Enabled 1
+     PivotID "doorLarge_R"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{C959D3CF939EBBB3}Prefabs/Props/Agriculture/Farm/HayBale_01_square_small.et" {
+   {
+    ID "619D27B12E399BB8"
+    coords 8.124 1 32.541
+    angleY 0
+   }
+   {
+    ID "619D27B12E3A5814"
+    coords 7.448 0.918 31.969
+    angleY 0
+   }
+   {
+    ID "619D27B12E3A5815"
+    coords 8.069 0.918 31.542
+    angleY -165
+   }
+   {
+    ID "619D27B12E3AEFD7"
+    coords 8.193 0.975 29.703
+    angleY 0
+   }
+   {
+    ID "619D27B12E3AEFD8"
+    coords 8.065 0.954 28.86
+    angleY 80.906
+   }
+   {
+    ID "619D27B12E3AF2B8"
+    coords 7.799 1.372 31.969
+    angleY 0
+   }
+   {
+    ID "619D27B12E3B71DE"
+    coords 7.51 0.929 29.52
+    angleY 8.739
+   }
+   {
+    ID "619D27B12E3B71DF"
+    coords 7.93 1.356 29.482
+    angleY 8.739
+   }
+  }
+  $grp GenericEntity : "{C972DC1485E7D56A}Prefabs/Structures/BuildingParts/Doors/Door_Cowshed_Left_EXT_COV_B.et" {
+   {
+    ID "619D27B12E391545"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "Socket_Small_Door"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B12E399BBA"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "Socket_Small_Door.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
+   ID "619D27B12E391540"
+   coords -6.756 0.914 35.315
+  }
+  GenericEntity : "{D5247F493225CA91}Prefabs/Props/Civilian/WateringCan_01.et" {
+   ID "619D27B12E391541"
+   coords 5.286 1 29.529
+  }
+  $grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_01.et" {
+   {
+    ID "619D27B12E39155E"
+    coords -3.716 1 27.155
+    angleY -75
+   }
+   {
+    ID "619D27B12E39155F"
+    coords -3.645 1 28.44
+    angleY 30
+   }
+  }
+  $grp GenericEntity : "{E537DCDB9B3F2278}Prefabs/Props/Agriculture/Farm/HayPile_01.et" {
+   {
+    ID "619D27B12E36919B"
+    coords -2.625 1 -33.257
+    angleY -105
+   }
+   {
+    ID "619D27B12E372A51"
+    coords -2.503 1.027 -32.082
+    angleY 180
+   }
+   {
+    ID "619D27B12E37BECA"
+    coords -3.189 1 -28.323
+    angleY -60
+   }
+   {
+    ID "619D27B12E37F646"
+    coords -2.635 1.006 23.495
+    angleY -45
+   }
+   {
+    ID "619D27B12E37F649"
+    coords -2.788 1 22.839
+    angleY -90
+   }
+   {
+    ID "619D27B12E3840FD"
+    coords 2.784 1 -29.926
+    angleY -60
+   }
+   {
+    ID "619D27B12E3840FE"
+    coords -3.268 1 20.723
+    angleY 173.632
+   }
+   {
+    ID "619D27B12E3849A4"
+    coords 2.337 1 -31.517
+    angleY 165
+   }
+   {
+    ID "619D27B12E3849A5"
+    coords 3.14 1 -31.764
+    angleY 0
+   }
+   {
+    ID "619D27B12E3883C8"
+    coords 3.134 1 27.657
+    angleY 13.536
+   }
+   {
+    ID "619D27B12E3883C9"
+    coords -2.566 1 21.025
+    angleY -1.083
+   }
+   {
+    ID "619D27B12E38F138"
+    coords -3.046 1 22.173
+    angleY -53.677
+   }
+   {
+    ID "619D27B12E39155A"
+    coords 3.602 1 26.636
+    angleY 6.928
+   }
+   {
+    ID "619D27B12E39155D"
+    coords 2.39 1 25.503
+    angleY -18.613
+   }
+   {
+    ID "619D27B12E3927EB"
+    coords 3.324 1 25.323
+    angleY -21.13
+   }
+  }
+  GenericEntity : "{EAD5A53F3695CB5F}Prefabs/Props/Civilian/Scythe_01.et" {
+   ID "619D27B12E369199"
+   coords 5.195 1 33.868
+   angleX -0.967
+   angleY -8.416
+   angleZ -6.508
+  }
+  GenericEntity : "{EB66EE2298D16D18}Prefabs/Props/Civilian/SackTruck_01.et" {
+   ID "619D27B12E36919F"
+   coords 4.151 1 31.841
+  }
+  $grp GenericEntity : "{F4BB6B6A0486F797}Prefabs/Props/Industrial/BarrelMetal_01_military.et" {
+   {
+    ID "619D27B12E36919E"
+    coords -2.032 1 -35.938
+   }
+   {
+    ID "619D27B12E36EAA4"
+    coords -2.668 1 -35.459
+   }
+  }
+  $grp GenericEntity : "{F4CA533A99B20DAE}Prefabs/Props/Civilian/SackUniversal_01.et" {
+   {
+    ID "619D27B12E36EAA6"
+    coords 7.272 1.035 34.135
+    angleX -9.346
+   }
+   {
+    ID "619D27B12E36EAA7"
+    coords 8.142 0.968 34.124
+    angleX -9.346
+   }
+   {
+    ID "619D27B12E36FA3F"
+    coords 6.427 1.035 34.135
+    angleX -9.346
+   }
+  }
+ }
+}

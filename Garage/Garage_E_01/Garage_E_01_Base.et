@@ -1,0 +1,44 @@
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{AC7721D4D5ACA4DE}Assets/Structures/Houses/Garage/Garage_E_01/Garage_E_01.xob"
+   LODFactors {
+    150 50 10 1 1
+   }
+  }
+  RigidBody "{506EDA9CBE1B57FF}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 1.251 3.199 2.845
+ SlotBoneMappings {
+  SlotBoneMappingObject "{624497D42C24026F}" {
+   BonePrefix "socket_glass_102x58"
+   Prefab "{607594FC45F03E08}Prefabs/Structures/BuildingParts/Windows/Glass_102x58/Glass_102x58.et"
+  }
+ }
+ {
+  EnvironmentProbeEntity : "{41AAC94523544499}Prefabs/Structures/Houses/Garage/Garage_E_01/Probe_Garage_E_01.et" {
+   ID "624497D42C24027D"
+   coords 0 1.711 -0.831
+  }
+  GenericEntity : "{83D0D6400E94237D}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_01_A_LEFT_EXT_COV_B.et" {
+   ID "624497D42C24027F"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     PivotID "socket_door_garage_02"
+    }
+   }
+  }
+  GenericEntity : "{EF84E2A0B250AC53}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_01_A_RIGHT_EXT_COV_B.et" {
+   ID "624497D42C240279"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     PivotID "socket_door_garage_01"
+    }
+   }
+  }
+ }
+}

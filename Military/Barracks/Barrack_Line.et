@@ -1,0 +1,443 @@
+SCR_DestructibleBuildingEntity {
+ ID "619D27B150A548F9"
+ components {
+  MeshObject "{619D27B150BDC6D4}" {
+   Object "{0E8AF2A8A40B5172}Assets/Houses/Military/Barrack_Line/Barrack_Line.xob"
+   LODFactors {
+    20 15 10 1
+   }
+   ObjectHeightmapBias 0
+   ClutterOccluder 1
+  }
+  RigidBody "{619D27B150BDC6CD}" {
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{619D27B150BDC6C3}" {
+  }
+  Hierarchy "{619D27B150BDC6C1}" {
+  }
+ }
+ coords 1537.85 38.539 2736.457
+ angleY -105
+ SlotBoneMappings {
+  SlotBoneMappingObject "{619D27B150BDC6C6}" {
+   BonePrefix "socket_door_out"
+   Prefab "{CC6B92AEE60F0AAC}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_EXT_COV_B_brown.et"
+  }
+  SlotBoneMappingObject "{619D27B150BDC6C5}" {
+   BonePrefix "socket_door_in"
+   Prefab "{3001595FE0D14B45}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_INT_COV_B.et"
+  }
+  SlotBoneMappingObject "{619D27B150BDC6FB}" {
+   BonePrefix "socket_window"
+   Prefab "{CF5C9F26BD7DAE66}Prefabs/Structures/BuildingParts/Windows/Win_village_E_A/Win_village_e_a_130x142_2_B.et"
+  }
+  SlotBoneMappingObject "{619D27B150BDC6F9}" {
+   BonePrefix "socket_window_small"
+   Prefab "{77FC91AED697C759}Prefabs/Structures/BuildingParts/Windows/Win_village_e_a_130x72_2_B.et"
+  }
+ }
+ {
+  GenericEntity : "{12874D28EBAB6A4C}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBoxes/ElectricityBox_medium_03.et" {
+   ID "619D27B150A548FE"
+   coords -11.472 2.728 1.098
+   angleY 90
+  }
+  $grp GenericEntity : "{1A8450D02D523398}Prefabs/Props/Furniture/CabinetMetal_01_olive_V3.et" {
+   {
+    ID "619D27B150A54807"
+    coords -4.179 0.921 -0.263
+    angleY -90
+   }
+   {
+    ID "619D27B150BAD270"
+    coords -11.161 0.921 -0.263
+    angleY 90
+   }
+   {
+    ID "619D27B150BAD27E"
+    coords -3.38 0.921 -0.263
+    angleY 90
+   }
+   {
+    ID "619D27B150BAD27F"
+    coords 3.451 0.921 -0.263
+    angleY -90
+   }
+  }
+  $grp GenericEntity : "{2ED930A7BA4156F5}Prefabs/Props/Furniture/MirrorBathroom_01.et" {
+   {
+    ID "619D27B150BAD272"
+    coords 4.031 1.911 -0.62
+    angleY 90
+   }
+   {
+    ID "619D27B150BADA2C"
+    coords 4.031 1.911 -1.785
+    angleY 90
+   }
+   {
+    ID "619D27B150BADA2D"
+    coords 4.031 1.911 -3.17
+    angleY 90
+   }
+  }
+  $grp GenericEntity : "{3001595FE0D14B45}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_INT_COV_B.et" {
+   {
+    ID "619D27B150BA6010"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_in.003"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B150BADA29"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_in.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B150BADA2B"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_in.002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B150BADA36"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_in"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B150BAE9E4"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_in.004"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B150BAE9E5"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_in.005"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{34F74A7DBAD46974}Prefabs/Props/Furniture/LightWall_01.et" {
+   {
+    ID "619D27B150B81444"
+    coords 4 3.577 1.583
+    angleY 90
+   }
+   {
+    ID "619D27B150B81445"
+    coords -0.094 3.493 0.408
+   }
+   {
+    ID "619D27B150B89FB7"
+    coords 1.578 3.493 0.106
+    angleY -180
+   }
+   {
+    ID "619D27B150B8F43C"
+    coords -7.289 3.493 0.408
+   }
+   {
+    ID "619D27B150BA6014"
+    coords -9.43 3.493 0.106
+    angleY -180
+   }
+   {
+    ID "619D27B150BB4BE1"
+    coords -2.108 3.493 0.106
+    angleY -180
+   }
+   {
+    ID "619D27B150BB4BE2"
+    coords 6.061 3.493 0.106
+    angleY -180
+   }
+   {
+    ID "619D27B150BBF8BD"
+    coords -5.716 3.493 0.106
+    angleY -180
+   }
+  }
+  $grp GenericEntity : "{49012FE1DEF653EE}Prefabs/Props/Furniture/Sink_01.et" {
+   {
+    ID "619D27B150B8144A"
+    coords 4.04 0.893 -0.626
+    angleY 90
+   }
+   {
+    ID "619D27B150B87068"
+    coords 4.04 0.893 -1.791
+    angleY 90
+   }
+   {
+    ID "619D27B150B8706B"
+    coords 4.04 0.893 -3.176
+    angleY 90
+   }
+  }
+  $grp GenericEntity : "{4A91907093866B99}Prefabs/Structures/BuildingParts/Misc/ShowerDrain_01.et" {
+   {
+    ID "619D27B150B8706C"
+    coords 7.544 1.043 -1.774
+   }
+   {
+    ID "619D27B150B8706F"
+    coords 7.544 1.043 -3.233
+   }
+   {
+    ID "619D27B150B9C8F8"
+    coords 7.544 1.043 -0.437
+   }
+  }
+  EnvironmentProbeEntity : "{565470F7BA530E0D}Prefabs/Structures/Core/ProbeHouse_Base.et" {
+   ID "619D27B150B9C8C7"
+   coords 1.369 2.038 1.547
+  }
+  GenericEntity : "{6A8B7BD2A7BF0B93}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_03.et" {
+   ID "619D27B150B9C8C2"
+   coords 8.337 3.61 1.625
+   angleY 90
+  }
+  Building : "{77FC91AED697C759}Prefabs/Structures/BuildingParts/Windows/Win_village_e_a_130x72_2_B.et" {
+   ID "619D27B150B9C8CC"
+   components {
+    Hierarchy "{619D27B150BDC6F7}" {
+     Enabled 1
+     PivotID "socket_window_small"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{939C815973AFEBA5}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_01.et" {
+   {
+    ID "619D27B150B9488F"
+    coords -1.211 2.69 0.096
+    angleY -180
+   }
+   {
+    ID "619D27B150B9C8C8"
+    coords -4.766 2.797 0.096
+    angleY -180
+   }
+   {
+    ID "619D27B150B9C8CB"
+    coords -8.377 2.736 0.096
+    angleY -180
+   }
+   {
+    ID "619D27B150BE88F4"
+    coords 2.52 2.72 0.096
+    angleY -180
+   }
+   {
+    ID "619D27B150BEFA39"
+    coords 5.247 2.746 0.096
+    angleY -180
+   }
+  }
+  $grp GenericEntity : "{A7E2685F2EC63A0D}Prefabs/Structures/BuildingParts/Heating/RadiatorCastIron_01/RadiatorCastIron_01_65.et" {
+   {
+    ID "619D27B150BE26B0"
+    coords -2.056 1.255 -3.737
+   }
+   {
+    ID "619D27B150BEFA26"
+    coords 1.569 1.255 -3.737
+   }
+   {
+    ID "619D27B150BF9394"
+    coords -5.77 1.255 -3.737
+   }
+   {
+    ID "619D27B150BFB237"
+    coords -9.387 1.255 -3.737
+   }
+  }
+  $grp GenericEntity : "{AC49D9D23A2BD1D8}Prefabs/Props/Furniture/BunkBed_01_Double.et" {
+   {
+    ID "619D27B150BC8F94"
+    coords 3.2 0.918 -2.27
+   }
+   {
+    ID "619D27B150BF0F50"
+    coords -0.839 0.92 -2.364
+   }
+   {
+    ID "619D27B150BF0FD7"
+    coords -4.422 0.919 -2.364
+   }
+   {
+    ID "619D27B150BFB232"
+    coords -8.305 0.919 -2.364
+   }
+  }
+  GenericEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
+   ID "619D27B150BC8F96"
+   coords 8.183 0.92 1.657
+   angleY 90
+  }
+  GenericEntity : "{CC6B92AEE60F0AAC}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_EXT_COV_B_brown.et" {
+   ID "619D27B150BC8F99"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_door_out"
+     AutoTransform 1
+    }
+   }
+   coords 0 -0.006 -0.038
+  }
+  $grp Building : "{CF5C9F26BD7DAE66}Prefabs/Structures/BuildingParts/Windows/Win_village_E_A/Win_village_e_a_130x142_2_B.et" {
+   {
+    ID "619D27B150BC74B6"
+    components {
+     Hierarchy "{619D27B150BD2819}" {
+      Enabled 1
+      PivotID "socket_window.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B150BC74C9"
+    components {
+     Hierarchy "{619D27B150BD2816}" {
+      Enabled 1
+      PivotID "socket_window"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B150BC8F9B"
+    components {
+     Hierarchy "{619D27B150BDC6EB}" {
+      Enabled 1
+      PivotID "socket_window.007"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B150BC8F9C"
+    components {
+     Hierarchy "{619D27B150BDC6EA}" {
+      Enabled 1
+      PivotID "socket_window.006"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B150BCB3D6"
+    components {
+     Hierarchy "{619D27B150BDC6E9}" {
+      Enabled 1
+      PivotID "socket_window.005"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B150BCB3D7"
+    components {
+     Hierarchy "{619D27B150BDC6E8}" {
+      Enabled 1
+      PivotID "socket_window.004"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B150BCF281"
+    components {
+     Hierarchy "{619D27B150BDC6EE}" {
+      Enabled 1
+      PivotID "socket_window.003"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B150BCF282"
+    components {
+     Hierarchy "{619D27B150BDC6ED}" {
+      Enabled 1
+      PivotID "socket_window.002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B150BCF283"
+    components {
+     Hierarchy "{619D27B150BDC6EC}" {
+      Enabled 1
+      PivotID "socket_window.008"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{DEE73EC3DF43A836}Prefabs/Props/Furniture/Shower_01_addon.et" {
+   {
+    ID "619D27B150BC74CB"
+    coords 8.12 2.414 -0.543
+    angleY -90
+   }
+   {
+    ID "619D27B150BDC6D8"
+    coords 8.12 2.414 -1.906
+    angleY -90
+   }
+   {
+    ID "619D27B150BDC6D9"
+    coords 8.12 2.414 -3.375
+    angleY -90
+   }
+  }
+ }
+}

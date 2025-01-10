@@ -1,0 +1,16 @@
+SCR_DestructibleBuildingEntity : "{10DB3EEB6DB494AD}Prefabs/Structures/Houses/Town/House_Town_E_2I02/House_Town_E_2I02_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{E00C5E669234FB95}Assets/Structures/Houses/Town/House_Town_E_2I02/House_Town_E_2I02_v2.xob"
+  }
+ }
+ coords 9713.386 0.001 1476.014
+ angleY 74.719
+ {
+  GenericEntity : "{D81A03126A4E3067}Prefabs/Structures/Houses/Town/House_Town_E_2I02/House_Town_E_2I02_furniture_01.et" {
+   ID "61B1445310379C74"
+   coords 0 0 0
+  }
+ }
+}

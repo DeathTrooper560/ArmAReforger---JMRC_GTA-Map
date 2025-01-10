@@ -1,0 +1,80 @@
+SCR_DestructibleBuildingEntity : "{10DB3EEB6DB494AD}Prefabs/Structures/Houses/Town/House_Town_E_2I02/House_Town_E_2I02_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{61B1445314A5025F}" {
+     SourceMaterial "House_Town_E_2I02_Ext1"
+     AssignedMaterial "{2089141B07AA58F0}Assets/Structures/Houses/Town/House_Town_E_2I02/Data/House_Town_E_2I02_Ext1_ Yellow.emat"
+    }
+    MaterialAssignClass "{61B1445314A50252}" {
+     SourceMaterial "House_Town_E_2I02_Ext2"
+     AssignedMaterial "{CAD31DFAEB7CFC83}Assets/Structures/Houses/Town/House_Town_E_2I02/Data/House_Town_E_2I02_Ext2_Yellow.emat"
+    }
+    MaterialAssignClass "{61B1445314A50269}" {
+     SourceMaterial "House_Town_E_2I02_Ext3_Details"
+     AssignedMaterial "{83F50A6F515CC509}Assets/Structures/Houses/Town/House_Town_E_2I02/Data/House_Town_E_2I02_Ext3_Details_Yellow.emat"
+    }
+    MaterialAssignClass "{61B1445314A50268}" {
+     SourceMaterial "House_Town_E_2I02_ext_mLOD"
+     AssignedMaterial "{57D1F01E5B536B51}Assets/Structures/Houses/Village/House_Village_E_1I05/Data/House_Village_E_1I05_exterior_yellow_MLOD.emat"
+    }
+   }
+  }
+ }
+ coords 9713.386 0.001 1476.014
+ angleY 74.719
+ SlotBoneMappings {
+  SlotBoneMappingObject "{5584C63FE06816A3}" {
+   Prefab "{69A8FFE5527CB776}Prefabs/Structures/BuildingParts/Entry/Entry_Direct_01.et"
+  }
+ }
+ {
+  GenericEntity {
+   ID "5584D0F3A2807508"
+   components {
+    MeshObject "{547A8804AA50F719}" {
+     Object "{F064E78215D4C83F}Assets/Structures/BuildingsParts/Entry/ConcreteStairs_01_entry_3m.xob"
+    }
+   }
+  }
+  GenericEntity {
+   ID "5584D0F3A2807510"
+   components {
+    MeshObject "{547A8804AA50F719}" {
+     Object "{F064E78215D4C83F}Assets/Structures/BuildingsParts/Entry/ConcreteStairs_01_entry_3m.xob"
+    }
+   }
+  }
+  GenericEntity {
+   ID "5584D0F3A280759E"
+   components {
+    MeshObject "{51C4DA208DB0E200}" {
+     Materials {
+      MaterialAssignClass "{61B1445314A50263}" {
+       SourceMaterial "Common/Materials/Glass_generic"
+       AssignedMaterial "{95C204D12167FDDE}Assets/Structures/BuildingsParts/Windows/Data/window_glass_INT.emat"
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5584D0F3A28075B1"
+   components {
+    MeshObject "{51C4DA208DB0E200}" {
+     Materials {
+      MaterialAssignClass "{61B1445314A50264}" {
+       SourceMaterial "Common/Materials/Glass_generic"
+       AssignedMaterial "{95C204D12167FDDE}Assets/Structures/BuildingsParts/Windows/Data/window_glass_INT.emat"
+      }
+     }
+    }
+   }
+  }
+  GenericEntity : "{D81A03126A4E3067}Prefabs/Structures/Houses/Town/House_Town_E_2I02/House_Town_E_2I02_furniture_01.et" {
+   ID "61B1445314A5029D"
+   coords 0 0 0
+  }
+ }
+}

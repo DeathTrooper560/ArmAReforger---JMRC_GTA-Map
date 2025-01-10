@@ -1,0 +1,33 @@
+SCR_DestructibleBuildingEntity : "{994C40D2DC80C489}Prefabs/Structures/Houses/Town/House_Town_E_2I01/House_Town_E_2I01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{28C7415FDD8E81F3}Assets/Structures/Houses/Town/House_Town_E_2I01/House_Town_E_2I01.xob"
+   Materials {
+    MaterialAssignClass "{61B144532806A008}" {
+     SourceMaterial "House_Town_E_2I01_Ext_Back"
+     AssignedMaterial "{F0733FF54809D652}Assets/Structures/Houses/Town/House_Town_E_2I01/Data/House_Town_E_2I01_Ext_Back_V2.emat"
+    }
+    MaterialAssignClass "{61B144532806A003}" {
+     SourceMaterial "House_Town_E_2I01_Ext_Foundation"
+     AssignedMaterial "{46BAF07DE4B28925}Assets/Structures/Houses/Town/House_Town_E_2I01/Data/House_Town_E_2I01_Ext_Foundation_Orange_V2.emat"
+    }
+    MaterialAssignClass "{61B144532806A000}" {
+     SourceMaterial "House_Town_E_2I01_Ext_Front"
+     AssignedMaterial "{A45127C07E1BAEF9}Assets/Structures/Houses/Town/House_Town_E_2I01/Data/House_Town_E_2I01_Ext_Front_Orange_V2.emat"
+    }
+    MaterialAssignClass "{61B144532806A001}" {
+     SourceMaterial "House_Town_E_2I01_Ext_MLOD"
+     AssignedMaterial "{F07FEA9359539547}Assets/Structures/Houses/Town/House_Town_E_2I01/Data/House_Town_E_2I01_Orange_V2_Ext_MLOD.emat"
+    }
+   }
+  }
+ }
+ coords 9591.313 0.001 1680.067
+ {
+  GenericEntity : "{0BD14AFA1CB7AC75}Prefabs/Structures/Houses/Town/House_Town_E_2I01/House_Town_E_2I01_furniture_01.et" {
+   ID "61B144532806A048"
+   coords 0 0 0
+  }
+ }
+}

@@ -1,0 +1,21 @@
+SCR_DestructibleBuildingEntity {
+ ID "619D27B144C09726"
+ components {
+  MeshObject "{619D27B144C09730}" {
+   Object "{A68A9DBEF865CD77}Assets/Structures/Commercial/GasStation/GasStation_Shed.xob"
+   LODFactors {
+    20 15 10 1
+   }
+  }
+  RigidBody "{619D27B144C09739}" {
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{619D27B144C0973C}" {
+  }
+  Hierarchy "{619D27B144C0973D}" {
+  }
+ }
+ coords 1672.009 39.01 2862.548
+ angleY -15
+}

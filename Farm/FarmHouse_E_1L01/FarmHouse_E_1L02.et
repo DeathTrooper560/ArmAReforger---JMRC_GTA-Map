@@ -1,0 +1,260 @@
+SCR_DestructibleBuildingEntity : "{BDB2B282A9B6E38B}Prefabs/Structures/Houses/Farm/FarmHouse_E_1L01/FarmHouse_E_1L01.et" {
+ ID "F0DBA538AC2A0552"
+ coords 0 0 0
+ {
+  GenericEntity {
+   ID "6235002682755F0F"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+   coords 1.086 4.005 8.918
+   angleX 0
+   angleY -0.373
+   angleZ 0
+  }
+  GenericEntity {
+   ID "6235002682755F17"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+   coords 2.246 4.317 10.382
+   angleX 0
+   angleY -0.656
+   angleZ 0
+  }
+  GenericEntity {
+   ID "6235002682755F1E"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+   coords 1.434 4.318 10.402
+   angleX 0
+   angleY -0.656
+   angleZ 0
+  }
+  GenericEntity {
+   ID "6235002682755F2C"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+   coords 1.076 4.005 5.228
+   angleX 0
+   angleY -0.373
+   angleZ 0
+  }
+  GenericEntity {
+   ID "6235002682755F34"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+   coords 1.87 4.003 7.711
+   angleX 0
+   angleY -0.373
+   angleZ 0
+  }
+  GenericEntity {
+   ID "6235002682755F3B"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+   coords 1.868 4.005 8.922
+   angleX 0
+   angleY -0.373
+   angleZ 0
+  }
+  GenericEntity {
+   ID "6235002682755F3C"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+   coords 1.077 4.01 7.693
+   angleX 0
+   angleY -0.373
+   angleZ 0
+  }
+  GenericEntity {
+   ID "6235002682755F64"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+   coords 0.629 4.317 10.414
+   angleX 0
+   angleY -0.656
+   angleZ 0
+  }
+  GenericEntity {
+   ID "6235002682755F9D"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+   coords 1.059 3.6 1.968
+   angleX 0
+   angleY -0.373
+   angleZ 0
+  }
+  GenericEntity {
+   ID "6235002682755FBB"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+   coords 1.851 3.591 1.957
+   angleX 0
+   angleY -0.373
+   angleZ 0
+  }
+  GenericEntity {
+   ID "6235002682755FC2"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+   coords 1.074 4.005 4.009
+   angleX 0
+   angleY -0.373
+   angleZ 0
+  }
+  GenericEntity {
+   ID "6235002682755FD2"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+   coords 1.885 4.005 6.455
+   angleX 0
+   angleY -0.373
+   angleZ 0
+  }
+  GenericEntity {
+   ID "6235002682755FD4"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+   coords 1.075 4.005 6.443
+   angleX 0
+   angleY -0.373
+   angleZ 0
+  }
+  GenericEntity {
+   ID "6235002682755FDA"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+   coords 1.904 4.005 5.232
+   angleX 0
+   angleY -0.373
+   angleZ 0
+  }
+  GenericEntity {
+   ID "6235002682755FE0"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+   coords 1.885 3.841 2.905
+   angleX 15.934
+   angleY -0.373
+   angleZ 0
+  }
+  GenericEntity {
+   ID "6235002682755FEB"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+   coords 1.083 3.841 2.887
+   angleX 15.934
+   angleY -0.373
+   angleZ 0
+  }
+  GenericEntity {
+   ID "6235002682755FFF"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     Enabled 0
+    }
+   }
+   coords 1.903 4.005 4.015
+   angleX 0
+   angleY -0.14
+   angleZ 0
+  }
+  $grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_01.et" {
+   {
+    ID "623509A23B2ADA8D"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+    coords 3.114 3.773 2.257
+    angleX 0.105
+    angleY -90.993
+    angleZ 90.153
+   }
+   {
+    ID "623509A23B2ADAB5"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+    coords 1.867 4.16 9.727
+    angleX 6.117
+    angleY -0.913
+    angleZ -0.366
+   }
+   {
+    ID "623509A23B2ADABB"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+    coords 4.303 3.766 2.276
+    angleX 0.105
+    angleY -90.993
+    angleZ 90.153
+   }
+   {
+    ID "623509A23B2ADB51"
+    components {
+     SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+      Enabled 0
+     }
+    }
+    coords 1.075 4.156 9.723
+    angleX 6.119
+    angleY -0.578
+    angleZ -0.33
+   }
+  }
+ }
+}

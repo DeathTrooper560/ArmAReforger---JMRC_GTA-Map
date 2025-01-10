@@ -1,0 +1,12 @@
+SCR_DestructibleBuildingEntity : "{F3C04211BAE932F2}Prefabs/Structures/Agriculture/WeightStation/WeightStation_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ coords 4183.601 11.344 2254.036
+ angleY 125.981
+ Flags 1027
+ {
+  GenericEntity : "{843F115B04B89009}Prefabs/Structures/Agriculture/WeightStation/WeightStation_01_furniture_01.et" {
+   ID "61DA127E818CDA77"
+   coords 0 0 0
+  }
+ }
+}
