@@ -1,0 +1,14 @@
+GenericEntity : "{C096C1B0AB003FF4}Prefabs/Props/Roadblocks/Single/Roadblock_01_v1_single.et" {
+ ID "5F1712CA1B08009D"
+ components {
+  MeshObject "{5F1712C5D9F38A0D}" {
+   Materials {
+    MaterialAssignClass "{619D27B1FE9F4FA0}" {
+     SourceMaterial "Roadblock_mat"
+     AssignedMaterial "{377E7BEDFFA332C2}Assets/Props/Roadblocks/Data/Roadblock_v2_mat.emat"
+    }
+   }
+  }
+ }
+ coords 1117.014 39.01 2696.886
+}

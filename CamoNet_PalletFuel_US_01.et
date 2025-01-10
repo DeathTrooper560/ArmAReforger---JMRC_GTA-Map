@@ -1,0 +1,10 @@
+GenericEntity : "{455BFEFBA1E8EFE1}Prefabs/Props/Military/Camps/CamoNet_PalletFuel_US.et" {
+ ID "52F0B4B066AF5A23"
+ coords 3689.001 11.223 2142.121
+ {
+  GenericEntity : "{E298303C48F27636}Prefabs/Props/Military/Camps/PalletFuel_01.et" {
+   ID "61D69537C4A50B98"
+   coords 0.004 -0.004 0
+  }
+ }
+}

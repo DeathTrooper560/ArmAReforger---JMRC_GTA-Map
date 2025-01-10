@@ -1,0 +1,20 @@
+GenericEntity {
+ ID "619D27B100F8FE0D"
+ components {
+  MeshObject "{619D27B100F8FE15}" {
+   Object "{79BAE6B1ACB0571F}Assets/Props/Roadblocks/Roadblock_02.xob"
+   LODFactors {
+    20 15 10 1
+   }
+  }
+  RigidBody "{619D27B100F8FE1F}" {
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{619D27B100F8FE1D}" {
+  }
+  Hierarchy "{619D27B100F8FE1B}" {
+  }
+ }
+ coords 1807.242 53.407 3067.632
+}
