@@ -1,0 +1,8 @@
+GenericEntity : "{2D7BF1652764415D}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_1x30.et" {
+ ID "50D4C00CBC4AC5B7"
+ editorData {
+  RandomizationEditorData "{62825617D84ECDD2}" {
+   alignToNormal 1
+  }
+ }
+}

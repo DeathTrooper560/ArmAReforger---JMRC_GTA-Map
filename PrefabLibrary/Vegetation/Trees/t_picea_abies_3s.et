@@ -1,0 +1,11 @@
+Tree : "{DE7FC095F656695C}Prefabs/Vegetation/Tree/t_picea_abies_3s.et" {
+ ID "0F2AA6B42CA78628"
+ editorData {
+  RandomizationEditorData "{619B6CC8D878BCFD}" {
+   randomYaw 1
+   randomScale 0.85 1.15
+   randomPitchAngle 2
+   randomRollAngle 2
+  }
+ }
+}
