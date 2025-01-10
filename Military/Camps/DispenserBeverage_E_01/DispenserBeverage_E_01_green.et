@@ -1,0 +1,15 @@
+GenericEntity : "{BE42E8F1579C057E}Prefabs/Props/Military/Camps/DispenserBeverage_E_01/DispenserBeverage_E_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{64452654CBD802CE}" {
+     SourceMaterial "DispenserBeverage_E"
+     AssignedMaterial "{4A7D71CDBF0D1F76}Assets/Props/Military/Camps/DispenserBeverage_E_01/Data/DispenserBeverage_E_01_Green.emat"
+    }
+   }
+  }
+ }
+ coords -1.8 1.045 -4.246
+ angleY 94.537
+}

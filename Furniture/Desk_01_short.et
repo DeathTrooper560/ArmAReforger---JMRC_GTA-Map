@@ -1,0 +1,24 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{3093CB3E78E4A641}Assets/Props/Furniture/Desk_01/Desk_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "SmallDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   m_fBaseHealth 3000
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{61F2170E76A61F98}" {
+     m_fPhaseHealth 2500
+     m_PhaseModel "{6A5876ADFD704C91}Assets/Props/Furniture/Desk_01/dst/Desk_01_dst.xob"
+    }
+   }
+   m_eMaterialSoundType BREAK_WOOD_SOLID
+  }
+ }
+ coords 0 0 0
+}

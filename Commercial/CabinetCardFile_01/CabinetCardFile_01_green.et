@@ -1,0 +1,30 @@
+GenericEntity : "{F737777FF0A566D5}Prefabs/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01_Base.et" {
+ ID "5190C218D4A29A90"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{61F2170FA445A859}" {
+     SourceMaterial "CabinetCardFile_01"
+     AssignedMaterial "{68A8C1F690E56659}Assets/Props/Commercial/CabinetCardFile_01/Data/CabinetCardFile_01_green.emat"
+    }
+    MaterialAssignClass "{61F2170FA445A84C}" {
+     SourceMaterial "lod3"
+     AssignedMaterial "{2F9D84E01693D0D9}Assets/Props/Commercial/CabinetCardFile_01/Data/CabinetCardFile_01_LOD_Green.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_DestroySpawnObjects {
+    SCR_PrefabSpawnable "{61F2170FA445A845}" {
+     m_Prefabs {
+      "{9CBBE8B23794214D}Prefabs/Props/Commercial/CabinetCardFile_01/Dst/CabinetCardFile_01_dst_green.et"
+     }
+    }
+   }
+  }
+ }
+ coords 1279.721 38.011 2900.995
+}

@@ -1,0 +1,74 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{D222BC6F4EAAFFCC}Assets/Props/Garbage/Bins/GarbageContainer_01/GarbageContainer_01_Base.xob"
+   LODFactors {
+    20 1 1 1
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Mass 125
+   CenterOfMass -0.7 0.4 0
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   Enabled 1
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     DamageReduction 10
+     DamageThreshold 0
+    }
+   }
+   m_fBaseHealth 1300
+   m_fDamageThresholdMaximum 50000
+   m_bPassDamageToChildren 1
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{61DA127591212125}" {
+     m_vOffsetPosition 0 0.3 0
+     m_vOffsetRotation 10 0 0
+     m_ModelPrefabs {
+      "{F9374E3E0842D646}Assets/Props/Garbage/Bins/GarbageContainer_01/Dst/GarbageContainer_dst_01.xob"
+     }
+     m_fMass 50
+     m_fDamageToImpulse 1
+     m_fRandomVelocityLinear 2
+     m_eMaterialSoundType METAL_HEAVY
+    }
+    SCR_ParticleSpawnable "{61DA127591212132}" {
+     m_vOffsetPosition 0 1 0
+     m_Particle "{66DAEB775AA8CA4C}Particles/Props/Dest_Prop_Metal_Medium.ptc"
+    }
+    SCR_DebrisSpawnable "{61DA12759121213B}" {
+     m_vOffsetPosition 0 0.5 0
+     m_vOffsetRotation 0 0 30
+     m_ModelPrefabs {
+      "{BC49B1B6664226F4}Assets/Props/Garbage/Bins/GarbageContainer_01/Dst/GarbageContainer_01_Cap_Dst_01.xob"
+     }
+     m_fMass 30
+     m_fRandomVelocityLinear 1
+     m_eMaterialSoundType METAL_LIGHT
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL
+  }
+  TagComponent "{61DA127591212103}" {
+   "Tag categories" 16
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 1323.238 32.001 2165.839
+ {
+  GenericEntity : "{18A97C97526545FB}Prefabs/Props/Garbage/Bins/GarbageContainer_01_lid.et" {
+   ID "61DA1275912111ED"
+   components {
+    Hierarchy "{61DA127591212117}" {
+    }
+   }
+   angleX -55
+  }
+ }
+}

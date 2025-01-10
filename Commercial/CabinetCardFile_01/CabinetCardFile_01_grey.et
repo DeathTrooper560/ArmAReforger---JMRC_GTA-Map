@@ -1,0 +1,18 @@
+GenericEntity : "{F737777FF0A566D5}Prefabs/Props/Commercial/CabinetCardFile_01/CabinetCardFile_01_Base.et" {
+ ID "5190C218D4A29A90"
+ components {
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_DestroySpawnObjects {
+    SCR_PrefabSpawnable "{61F2170FA861C206}" {
+     m_Prefabs {
+      "{A871BDDC9C0AC8C5}Prefabs/Props/Commercial/CabinetCardFile_01/Dst/CabinetCardFile_01_dst_grey.et"
+     }
+    }
+   }
+  }
+ }
+ coords 1279.721 38.011 2900.995
+}

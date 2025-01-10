@@ -1,0 +1,25 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{853D71CA8E480063}Assets/Props/Decorations/PaintingBig_02_550x770/PaintingBig_02.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{61F2170F0792382B}" {
+     m_ModelPrefabs {
+      "{F5C0B605EE99823A}Assets/Props/Decorations/PaintingBig_02_550x770/Dst/Painting_02_dst_01.xob" "{6CDE0F9CF37EB3AA}Assets/Props/Decorations/PaintingBig_02_550x770/Dst/Painting_02_dst_02.xob"
+     }
+     m_fMass 2
+     m_eMaterialSoundType WOOD_PLANK_SMALL
+    }
+   }
+   m_eMaterialSoundType BREAK_WOOD_SOLID
+  }
+ }
+ coords 0 0 0
+}

@@ -1,0 +1,105 @@
+GameEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SignalsManagerComponent "{644526533A1889CE}" {
+  }
+  SoundComponent "{644526533A1889B5}" {
+   Filenames {
+    "{604B5E7196B51943}Sounds/Props/Military/Camps/Props_LanternMilitary_US_01.acp"
+   }
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{866AB21E4FEE8FB8}Assets/Props/Military/Camps/LanternMilitary_US_01/LanternMilitary_US_01.xob"
+  }
+  ParametricMaterialInstanceComponent "{644526533A188991}" {
+   ColorEmissive 0.141 0.112 0.068 1
+   EmissiveMultiplier 0
+   UseUserParamOne 0
+   UseUserParamTwo 0
+   UseUserParamThree 0
+   UseUserParamFour 0
+   UseUserParamAlpha 0
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_BaseInteractiveLightComponent "{644526533A188994}" {
+   Enabled 0
+   m_aLightData {
+    SCR_BaseLightData "{644526533A18898E}" {
+     m_eLightType POINT
+     m_vLightOffset 0 0.2 0
+     m_vLightColor 1 0.896 0.687
+     m_fRadius 4
+     m_fIntensityClipEV -10
+     m_vFlareOffset 0 0.02 0
+     m_fScale 0.2
+     m_eLightFlags 3
+    }
+   }
+   m_bGradualLightning 1
+   m_fLV 2
+   m_eInitialLightState LIT_ON_SPAWN
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 1
+   m_fBaseHealth 300
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{644526533A188987}" {
+     m_vOffsetPosition 0 0.3 0
+     m_ModelPrefabs {
+      "{036DF1B9EDCAFADE}Assets/Props/Military/Camps/LanternMilitary_US_01/Dst/LanternMilitary_US_01_DST_01.xob"
+     }
+     m_fMass 3
+     m_fRandomVelocityLinear 1
+     m_eMaterialSoundType METAL_LIGHT
+    }
+    SCR_ParticleSpawnable "{644526533A18897D}" {
+     m_Particle "{6A57903619B5C050}Particles/Props/Dest_Prop_Metal_Small.ptc"
+    }
+   }
+   m_eMaterialSoundType BREAK_GLASS
+  }
+  SCR_LampComponent "{644526533A188972}" {
+   m_aLightData {
+    SCR_BaseLightData "{644526533A188974}" {
+     m_eLightType POINT
+     m_vLightOffset 0 0.2 0
+     m_vLightColor 1 0.7 0.361
+     m_fRadius 4
+     m_fIntensityClipEV -10
+     m_vFlareOffset 0 0.02 0
+     m_fScale 0.2
+     m_eLightFlags 3
+    }
+   }
+   m_fLV 2
+   m_sParticle ""
+   m_vParticleOffset 0 0.22 0
+  }
+  ActionsManagerComponent "{644526533A188969}" {
+   ActionContexts {
+    UserActionContext "{644526533A18896D}" {
+     ContextName "Switch"
+     Position PointInfo "{644526533A18896F}" {
+     }
+     Radius 1
+    }
+   }
+   additionalActions {
+    SCR_SwitchLightUserAction "{644526533A188960}" {
+     ParentContextList {
+      "Switch"
+     }
+     Duration 1
+     m_sLightDescription "#AR-UserAction_LanternLightOn"
+     m_sExtinguishDescription "#AR-UserAction_LanternLightOff"
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 2.654 1.031 -16.065
+}

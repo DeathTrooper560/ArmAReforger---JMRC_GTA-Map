@@ -1,0 +1,44 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{56FFD37BE265C26C}Assets/Props/Furniture/Armchair_03/Armchair_03.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "MediumDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   Enabled 1
+   m_fBaseHealth 700
+   m_bPassDamageToChildren 1
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{61F2170F8A875709}" {
+     m_ModelPrefabs {
+      "{850533D3FB42FFC2}Assets/Props/Furniture/Armchair_03/Dst/Armchair_03_dst_02.xob" "{F20F5B5B0FE010B2}Assets/Props/Furniture/Armchair_03/Dst/Armchair_03_dst_03.xob"
+     }
+     m_eMaterialSoundType WOOD_PLANK_SMALL
+    }
+    SCR_DebrisSpawnable "{5F28D350944FBB69}" : "{38A75EBDDCB8B715}Configs/Destruction/MultiphaseDestruction/FX_Debris/FX_Debris_Wood_Planks_Small.conf" {
+     m_ModelPrefabs {
+      "{F5C8A10A6966AA71}Assets/Props/Furniture/Armchair_03/Dst/Armchair_03_dst_04.xob"
+     }
+    }
+   }
+   m_bDeleteAfterFinalPhase 0
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{61F2170F8A875739}" {
+     m_fPhaseHealth 1000
+     m_PhaseModel "{1C1B8A4AE6A5CE52}Assets/Props/Furniture/Armchair_03/Dst/Armchair_03_dst_01.xob"
+    }
+   }
+   m_eMaterialSoundType BREAK_WOOD_SOLID
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords -8.668 3.997 6.46
+ angleY 180
+}
