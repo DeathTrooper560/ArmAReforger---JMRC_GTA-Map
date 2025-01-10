@@ -1,0 +1,35 @@
+GenericEntity : "{44B0452B22B51743}Prefabs/Props/Furniture/ChairRecreation_01/ChairRecreation_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{624497D6C48F2673}" {
+     SourceMaterial "ChairRecreation_01"
+     AssignedMaterial "{AD33170B7CD42C33}Assets/Props/Furniture/ChairRecreation_01/Data/ChairRecreation_01_Red.emat"
+    }
+    MaterialAssignClass "{624497D6C48F2641}" {
+     SourceMaterial "Color_palette"
+     AssignedMaterial "{D16646B4A7AE9E55}Assets/Props/Furniture/ChairRecreation_01/Data/ChairRecreation_01_Mlod_Red.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "SmallDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{5510BAA6D0894653}" {
+     m_ModelPrefabs {
+      "{82D3AA108130FD28}Prefabs/Props/Furniture/ChairRecreation_01/Dst/ChairRecreation_01_Dst_01_red.et" "{3004E8FBDE92CEB0}Prefabs/Props/Furniture/ChairRecreation_01/Dst/ChairRecreation_01_Dst_02_red.et"
+     }
+    }
+    SCR_DebrisSpawnable "{5510BAA6257B9E63}" {
+     m_ModelPrefabs {
+      "{5E49D6A2EBF32038}Prefabs/Props/Furniture/ChairRecreation_01/Dst/ChairRecreation_01_Dst_03_red.et" "{175A8CC6C83C9F13}Prefabs/Props/Furniture/ChairRecreation_01/Dst/ChairRecreation_01_Dst_04_red.et" "{7917B29FFD5D719B}Prefabs/Props/Furniture/ChairRecreation_01/Dst/ChairRecreation_01_Dst_05_red.et" "{CBC0F074A2FF4203}Prefabs/Props/Furniture/ChairRecreation_01/Dst/ChairRecreation_01_Dst_06_red.et" "{A58DCE2D979EAC8B}Prefabs/Props/Furniture/ChairRecreation_01/Dst/ChairRecreation_01_Dst_07_red.et"
+     }
+    }
+   }
+  }
+ }
+ angleY 0
+}

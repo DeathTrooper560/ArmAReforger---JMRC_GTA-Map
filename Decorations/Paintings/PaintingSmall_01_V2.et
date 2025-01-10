@@ -1,0 +1,16 @@
+GenericEntity : "{EAEF48AB7A0B6420}Prefabs/Props/Decorations/Paintings/PaintingSmall_01_base.et" {
+ ID "6093E737D53E5603"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{61F2170F0357F859}" {
+     SourceMaterial "PaintingSmall_01"
+     AssignedMaterial "{715FED983B9122B9}Assets/Props/Decorations/PaintingSmall_01_400x600/Data/PaintingSmall_01_V2.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+ }
+}

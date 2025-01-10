@@ -1,0 +1,22 @@
+GenericEntity : "{33F7854D9B4B78CE}Prefabs/Props/Airport/RunwayLightPortable_01/RunwayLightPortable_01_base.et" {
+ ID "5216C470CAB6EC58"
+ components {
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "SmallDestructible"
+  }
+ }
+ coords 1478.009 39.011 2786.464
+ {
+  GenericEntity : "{50453A6A8F169E8B}Prefabs/Props/Airport/RunwayLightPortable_01/RunwayLightPortable_01_light.et" {
+   ID "619B33AE18B19AC7"
+   components {
+    LightSourceVisualizationObject "{5A02839A0D5BE210}" {
+     Color 0.961 0.031 0.031 0
+    }
+    Hierarchy "{619B33AE18B19ACB}" {
+    }
+   }
+   coords 0 0.339 0.063
+  }
+ }
+}

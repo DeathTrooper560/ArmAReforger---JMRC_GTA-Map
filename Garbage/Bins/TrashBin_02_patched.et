@@ -1,0 +1,26 @@
+GenericEntity : "{72F6A52C535C8670}Prefabs/Props/Garbage/Bins/TrashBin_02_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{A28468BC13950AD5}Assets/Props/Garbage/Bins/TrashBin_02/TrashBin_02_patched.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyMomentum"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{5CE2EAB1B903767A}" {
+     m_ModelPrefabs {
+      "{1D0E2913417C7081}Assets/Props/Garbage/Bins/TrashBin_02/Dst/TrashBin_02_patched_dst_02.xob" "{8410908A5C9B4111}Assets/Props/Garbage/Bins/TrashBin_02/Dst/TrashBin_02_patched_dst_01.xob"
+     }
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+}

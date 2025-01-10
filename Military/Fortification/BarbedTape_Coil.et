@@ -1,0 +1,53 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{D1EE819E6BF69BDE}Assets/Props/Military/Fortification/BarbedWire/BarbedTape_Coil.xob"
+   LODFactors {
+    15 5 4 6 2 1 1
+   }
+  }
+  NavmeshCustomLinkComponent "{64452654AA46C259}" {
+   Enabled 0
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   Enabled 1
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     DamageReduction 20
+     DamageThreshold 20
+     "Kinetic multiplier" 0.1
+     "Fragmentation multiplier" 0.05
+     "Explosive multiplier" 1
+    }
+   }
+   m_fBaseHealth 2500
+   m_bPassDamageToChildren 1
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{5D48788F81028A2D}" : "{60812D84E1857AD2}Configs/Destruction/MultiphaseDestruction/FX_Debris/FX_Debris_NetFence_Light.conf" {
+     m_ModelPrefabs {
+      "{6577391115B12C31}Assets/Structures/Walls/BarbedWire/Dst/BarbedTape_Long_Dst_02.xob" "{B443576E2F6E19AD}Assets/Structures/Walls/BarbedWire/Dst/BarbedTape_Long_dst_01.xob" "{6577391115B12C31}Assets/Structures/Walls/BarbedWire/Dst/BarbedTape_Long_Dst_02.xob" "{6577391115B12C31}Assets/Structures/Walls/BarbedWire/Dst/BarbedTape_Long_Dst_02.xob" "{6577391115B12C31}Assets/Structures/Walls/BarbedWire/Dst/BarbedTape_Long_Dst_02.xob"
+     }
+    }
+    SCR_DebrisSpawnable "{5D48788FFCD31784}" : "{38A75EBDDCB8B715}Configs/Destruction/MultiphaseDestruction/FX_Debris/FX_Debris_Wood_Planks_Small.conf" {
+    }
+    SCR_ParticleSpawnable "{64452654AA46C27E}" {
+     m_vOffsetPosition 0 0 0
+     m_Particle "{66DAEB775AA8CA4C}Particles/Props/Dest_Prop_Metal_Medium.ptc"
+    }
+    SCR_ParticleSpawnable "{64452654AA46C276}" {
+     m_Particle "{2062FCAF09834699}Particles/Weapon/Smoke_M203.ptc"
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL_NETFENCE
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords -2.014 0.129 -10.669
+ Flags 525315
+}

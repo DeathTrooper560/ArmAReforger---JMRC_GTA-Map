@@ -1,0 +1,21 @@
+GenericEntity : "{0692BB439764BB1E}Prefabs/Props/Civilian/Notebook_01_base.et" {
+ ID "5256876839A05289"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{61F217087224EDA4}" {
+     SourceMaterial "Notebook_01"
+     AssignedMaterial "{6DBA359EA58C72E1}Assets/Props/Civilian/Notebook_01/Data/Notebook_01_Orange.emat"
+    }
+    MaterialAssignClass "{61F217087224EDB4}" {
+     SourceMaterial "Palette"
+     AssignedMaterial "{C9BC6C21112291DE}Assets/Props/Civilian/Notebook_01/Data/Notebook_01_Orange_MLOD.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+ }
+ coords -3.493 9.218 11.091
+}

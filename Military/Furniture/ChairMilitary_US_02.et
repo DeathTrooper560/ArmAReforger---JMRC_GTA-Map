@@ -1,0 +1,38 @@
+StaticModelEntity : "{5EC6836A5694F691}Prefabs/Props/Military/Furniture/FurnitureMilitary_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{F45212699CCE90EB}Assets/Props/Military/Furniture/US/ChairMilitary_US_02.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Mass 10
+   ResponseIndex "MediumDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   "Additional hit zones" {
+    SCR_HitZone Default : "{08EE9251C32CBE4C}Configs/Destruction/MultiphaseDestruction/HitZone/HitZone_Wood_Planks.conf" {
+    }
+   }
+   m_DestroySpawnObjects {
+    SCR_ParticleSpawnable "{5E48DDA1778800D1}" {
+     m_Particle "{D3C811ED8808EC56}Particles/Props/Dest_Prop_Plastic_Medium.ptc"
+    }
+    SCR_DebrisSpawnable "{5E4C68DC478191A1}" : "{5149200980A0F02F}Configs/Destruction/MultiphaseDestruction/FX_Debris/FX_Debris_Plastic.conf" {
+     m_ModelPrefabs {
+      "{44476CD60C69AF17}Assets/Props/Military/Furniture/US/Dst/ChairMilitary_US_02_dst_01.xob"
+     }
+    }
+    SCR_DebrisSpawnable "{5E4C68DC4441C0C5}" : "{C2BD61C5E05B8971}Configs/Destruction/MultiphaseDestruction/FX_Debris/FX_Debris_Metal_Light.conf" {
+     m_ModelPrefabs {
+      "{334D045EF8CB4067}Assets/Props/Military/Furniture/US/Dst/ChairMilitary_US_02_dst_00.xob" "{DD59D54F118E9E87}Assets/Props/Military/Furniture/US/Dst/ChairMilitary_US_02_dst_02.xob"
+     }
+    }
+   }
+   m_eMaterialSoundType BREAK_PLASTIC
+  }
+ }
+ coords -3.271 0.14 -3.112
+ angleY 89.8
+}

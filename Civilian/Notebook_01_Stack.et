@@ -1,0 +1,12 @@
+GenericEntity : "{0692BB439764BB1E}Prefabs/Props/Civilian/Notebook_01_base.et" {
+ ID "5256876839A05289"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{18C18306E74F0F50}Assets/Props/Civilian/Notebook_01/Notebook_01_Stack.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+ }
+ coords -9.499 4.903 5.015
+}

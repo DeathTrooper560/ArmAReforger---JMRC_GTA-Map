@@ -1,0 +1,22 @@
+GenericEntity : "{3CF7EAA0F05546FF}Prefabs/Props/Furniture/PhoneTable_01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{61F217083930BD3D}" {
+     SourceMaterial "Color_palette"
+     AssignedMaterial "{5218C1EDBBF70810}Common/Materials/ColorPalette/Color_palette_01_CRIMSON_15_S4_R3.emat"
+    }
+    MaterialAssignClass "{61F217083930BD4C}" {
+     SourceMaterial "PhoneTable_01"
+     AssignedMaterial "{EACD039A9CF88E4C}Assets/Props/Furniture/PhoneTable_01/Data/PhoneTable_01_red.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+ }
+ coords -7.94 4.903 5.353
+ angleY -33.878
+}

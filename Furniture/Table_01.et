@@ -1,0 +1,37 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{EFCB9305FB18473E}Assets/Props/Furniture/Table_01/Table_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   "Additional hit zones" {
+    SCR_HitZone Default : "{08EE9251C32CBE4C}Configs/Destruction/MultiphaseDestruction/HitZone/HitZone_Wood_Planks.conf" {
+    }
+   }
+   m_fBaseHealth 2500
+   m_bPassDamageToChildren 1
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{5214BC469608E785}" : "{38A75EBDDCB8B715}Configs/Destruction/MultiphaseDestruction/FX_Debris/FX_Debris_Wood_Planks_Small.conf" {
+     m_ModelPrefabs {
+      "{389015DE4582A22F}Assets/Props/Furniture/Table_01/dst/Table_01_dst_03.xob" "{3F57EF8F230418EC}Assets/Props/Furniture/Table_01/dst/Table_01_dst_04.xob" "{485D8707D7A6F79C}Assets/Props/Furniture/Table_01/dst/Table_01_dst_05.xob" "{4F9A7D56B1204D5F}Assets/Props/Furniture/Table_01/dst/Table_01_dst_02.xob" "{D684C4CFACC77CCF}Assets/Props/Furniture/Table_01/dst/Table_01_dst_01.xob"
+     }
+     m_eMaterialSoundType WOOD_PLANK_SMALL
+    }
+    SCR_ParticleSpawnable "{624497D69535B2B8}" {
+     m_Particle "{63D673751320F318}Particles/Props/Dest_Prop_Wood_Medium.ptc"
+    }
+   }
+   m_eMaterialSoundType BREAK_WOOD_SOLID
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+}

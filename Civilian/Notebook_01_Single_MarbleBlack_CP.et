@@ -1,0 +1,48 @@
+GenericEntity : "{04EEB10214E177B3}Prefabs/Props/Civilian/Notebook_01_Single_MarbleBlack.et" {
+ ID "5256876588C6DFCB"
+ components {
+  InventoryItemComponent "{61F2170874AABDFF}" {
+   Attributes SCR_ItemAttributeCollection "{61F2170874AABC03}" {
+    ItemDisplayName UIInfo "{61F2170874AABC0D}" {
+     Name "Document"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{61F2170874AABC0F}" {
+     SizeSetupStrategy Manual
+     ItemDimensions 1 1 1
+     ItemVolume 1
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{61F2170874AABC08}" {
+      CameraDistanceToItem 0.35
+      ItemRenderRotation 90 0 0
+      PreviewModel "{04EEB10214E177B3}Prefabs/Props/Civilian/Notebook_01_Single_MarbleBlack.et"
+     }
+    }
+    m_Size SLOT_1x1
+    m_SlotType SLOT_ANY
+   }
+  }
+  ActionsManagerComponent "{61F2170874AABC11}" {
+   ActionContexts {
+    UserActionContext "{61F2170874AABC13}" {
+     ContextName "default"
+     Position PointInfo "{61F2170874AABC1F}" {
+     }
+    }
+   }
+   additionalActions {
+    SCR_PickUpItemAction "{61F2170874AABC1A}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{61F2170874AABC25}" {
+      Name "Pick UP"
+     }
+    }
+   }
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   "Parent Node From Parent Entity" 0
+  }
+ }
+}

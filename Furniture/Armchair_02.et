@@ -1,0 +1,39 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{38232D92182F7FB7}Assets/Props/Furniture/Armchair_02/Armchair_02.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   Enabled 1
+   "Additional hit zones" {
+    SCR_HitZone Default : "{08EE9251C32CBE4C}Configs/Destruction/MultiphaseDestruction/HitZone/HitZone_Wood_Planks.conf" {
+     "Kinetic multiplier" 0.01
+    }
+   }
+   m_fBaseHealth 1000
+   m_bPassDamageToChildren 1
+   m_DestroySpawnObjects {
+    SCR_ParticleSpawnable "{61F2170F88B722AF}" {
+     m_Particle "{59420DC7DC55F76C}Particles/Props/Dest_Prop_Default_Medium.ptc"
+    }
+   }
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{61F2170F88B722D3}" {
+     m_fPhaseHealth 4000
+     m_PhaseModel "{BFC1CAA6AEACB5DF}Assets/Props/Furniture/Armchair_02/Dst/Armchair_02_dst_01.xob"
+    }
+   }
+   m_eMaterialSoundType BREAK_WOOD_SOLID
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+}

@@ -1,0 +1,34 @@
+GenericEntity : "{33F7854D9B4B78CE}Prefabs/Props/Airport/RunwayLightPortable_01/RunwayLightPortable_01_base.et" {
+ ID "5216C470CAB6EC58"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{619B33AE1CB1C6ED}" {
+     SourceMaterial "RunwayLightPortable_01_light"
+     AssignedMaterial "{90D668646DBD3E95}Assets/Props/Airport/RunwayLightPortable_01/Data/RunwayLightPortable_01_light_yellow.emat"
+    }
+    MaterialAssignClass "{619B33AE1CB1C6F5}" {
+     SourceMaterial "palette"
+     AssignedMaterial "{6F444B388A8D1957}Assets/Props/Airport/RunwayLightPortable_01/Data/RunwayLightPortable_01_LOD_yellow.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "SmallDestructible"
+  }
+ }
+ coords 1478.009 39.011 2786.464
+ {
+  GenericEntity : "{50453A6A8F169E8B}Prefabs/Props/Airport/RunwayLightPortable_01/RunwayLightPortable_01_light.et" {
+   ID "619B33AE1CB1C69B"
+   components {
+    LightSourceVisualizationObject "{5A02839A0D5BE210}" {
+     Color 1 0.432 0 0
+    }
+    Hierarchy "{619B33AE1CB1C6F1}" {
+    }
+   }
+   coords 0 0.339 0.063
+  }
+ }
+}
