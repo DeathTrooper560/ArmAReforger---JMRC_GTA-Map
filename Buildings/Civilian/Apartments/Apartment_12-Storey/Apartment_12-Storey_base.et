@@ -1,0 +1,2002 @@
+SCR_DestructibleBuildingEntity {
+ ID "619D27B1D2E838A2"
+ components {
+  MeshObject "{619D27B1D287072D}" {
+   Object "{835D5ED0F8BD7585}Assets/Buildings/Civilian/Apartments/Storey_12/Apartment_12_Floor_v1.xob"
+   LODFactors {
+    15 10 1
+   }
+  }
+  RigidBody "{619D27B1D287075A}" {
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{619D27B1D2870758}" {
+  }
+  Hierarchy "{619D27B1D287075E}" {
+  }
+ }
+ Flags 524291
+ placement slopelandcontact
+ {
+  GenericEntity : "{0794E8EE5886089A}Prefabs/Buildingparts/Civilian/Apartments/Doors/DoorSet_INT_technic_01.et" {
+   ID "619D27B1D2E838BB"
+   components {
+    Hierarchy "{5E3E0A0378CC8809}" {
+     PivotID "Socket_DoorFrame_01"
+    }
+   }
+   coords 0 0 0
+   angleY 0
+  }
+  $grp GenericEntity : "{3DA6C2831E5C9628}Prefabs/Buildingparts/Civilian/Apartments/Doors/Dooframe_Balcony_01.et" {
+   {
+    ID "619D27B1D2943000"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_10"
+     }
+    }
+    coords 0 0 0
+    angleY -180
+   }
+   {
+    ID "619D27B1D2943001"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_11"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D294300E"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_06"
+     }
+    }
+    coords 0 0 0
+    angleY -180
+   }
+   {
+    ID "619D27B1D2948C0C"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_09"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2948C0F"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_12"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D295467A"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_15"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D295467C"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_14"
+     }
+    }
+    coords 0 0 0
+    angleY -180
+   }
+   {
+    ID "619D27B1D295467D"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_13"
+     }
+    }
+    coords 0 0 0
+    angleY -180
+   }
+   {
+    ID "619D27B1D2956035"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_16"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2E838B1"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_47"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2E838B3"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_46"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2E838B7"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_48"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2E880E0"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_41"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2E880E1"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_42"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2E880E2"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_34"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2E8B697"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_40"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2E8B6A8"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_43"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2E92798"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_30"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2E9279E"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_36"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2E9279F"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_33"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2E97A7D"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_35"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2E97A7E"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_44"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2E97A7F"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_45"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2E98514"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_37"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2E98516"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_39"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2E98517"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_38"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2E9FE8C"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_32"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2E9FE8D"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_31"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2EA47D6"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_27"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2EA47D8"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_29"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2EA47D9"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_28"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2EA6730"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_25"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2EA6733"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_26"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2EAA076"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_21"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2EAA077"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_20"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2EAC962"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_24"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2EAC963"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_23"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2EAC964"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_22"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2EB20F5"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_15"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2EB20F6"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_18"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2EB29CE"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_16"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2EB29D0"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_17"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2EB29D1"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_19"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2EBB390"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_07"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2EBB391"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_08"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2EBB760"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_03"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2EBB763"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_02"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2EBB767"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_05"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "619D27B1D2EBE4E4"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_01"
+     }
+    }
+    coords 0 0 0
+    angleY -180
+   }
+   {
+    ID "619D27B1D2EBE4E5"
+    components {
+     Hierarchy "{5E3D72A52B852BA4}" {
+      PivotID "Socket_DoorFrame_balcony_04"
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{45CAF6EBA1194C2E}Prefabs/Buildingparts/Civilian/Apartments/Doors/DoorFrame_Entry_01.et" {
+   ID "619D27B1D2956036"
+   components {
+    Hierarchy "{5E36D5A8228204A6}" {
+     PivotID "Socket_DoorFrame_Entry_01"
+    }
+   }
+   coords 0 0 0
+  }
+  EnvironmentProbeEntity : "{565470F7BA530E0D}Prefabs/Structures/Core/ProbeHouse_Base.et" {
+   ID "619D27B1D295604D"
+   coords 0 7.267 0
+  }
+  $grp Building : "{5908927934F081CB}Prefabs/Buildingparts/Civilian/Apartments/Window/Window_village_170x142.et" {
+   {
+    ID "619D27B1D29011B0"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_06"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29011B1"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_30"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29011BF"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_19"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2902D9D"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_42"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2902D9E"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_31"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29093CA"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_85"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29093CB"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_72"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D290AE52"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_96"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D290AE55"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_84"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2913905"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_60"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2913906"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_37"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2917076"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_73"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2917077"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_61"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D291F69E"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_13"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D291F69F"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_144"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2920B84"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_24"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2920B85"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_36"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2922DFC"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_25"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2922DFF"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_48"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2925353"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_143"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D292536C"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_12"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29291F2"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_140"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29291F3"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_139"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D293041A"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_80"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D293041B"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_81"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2935189"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_138"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D293518E"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_141"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2937BD0"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_83"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2937BD2"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_142"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2937BD3"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_82"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D293968D"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_59"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D293968E"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_77"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D293B9C0"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_69"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D293B9C1"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_68"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D293C196"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_71"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D293C199"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_92"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D293CF7C"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_93"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D293CF7D"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_94"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2956040"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_76"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2956041"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_74"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D295604E"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_86"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29587E1"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_50"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29587E6"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_51"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D295DB58"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_87"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D295DB5A"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_88"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D295DB5B"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_89"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2960E70"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_75"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2960E73"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_74"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2960F94"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_65"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2960F95"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_64"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2967B6E"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_91"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2967B6F"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_63"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D296FB6F"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_52"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D296FB70"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_53"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2971252"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_78"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2971253"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_55"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29757C0"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_62"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29757C1"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_90"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29757C2"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_79"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2978764"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_97"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2978767"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_18"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2979D3A"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_54"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2979D3B"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_43"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D297C97B"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_66"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D297C97C"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_67"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2980A1A"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_132"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2980A1B"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_134"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2983040"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_136"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2983043"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_135"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D298E768"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_129"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D298E769"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_128"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2992BF0"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_124"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2992BF1"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_118"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2992BF7"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_123"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2993B1C"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_119"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2993B1F"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_120"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D299460F"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_130"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29947F0"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_126"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2996568"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_127"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2996569"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_128"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D299BAD4"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_121"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D299BAD5"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_122"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29A2172"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_116"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29A217D"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_115"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29A4094"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_125"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29A4097"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_112"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29A6F2E"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_113"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29A6F2F"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_114"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29A90BC"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_110"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29A90BF"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_106"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29AE3C4"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_111"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29AE3C5"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_109"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29B1162"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_108"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29B1165"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_100"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29B1574"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_105"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29B1575"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_107"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29B9494"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_101"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29B9495"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_102"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29BB123"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_103"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29C007B"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_57"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29C007C"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_70"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29C29A8"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_01"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29C29A9"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_11"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29C9E80"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_22"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29C9E81"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_14"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29C9E82"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_16"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29D1360"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_27"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29D137F"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_21"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29D901C"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_29"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29D901F"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_28"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29DCD1C"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_26"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29DCD1D"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_26"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29E3EA2"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_34"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29E3EA5"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_32"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29E511C"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_35"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29E511D"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_34"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29EF02E"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_40"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29EF02F"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_39"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29F0DE6"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_46"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29F0DE8"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_41"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29F0DE9"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_47"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29F5E48"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_38"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29F5E4B"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_44"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29FA353"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_09"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29FA354"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_133"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29FC66A"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_02"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29FC66B"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_45"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29FE1AA"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_08"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29FE1AB"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_10"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29FE469"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_05"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29FE46A"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_04"
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp Building : "{5F6379A87EBF775C}Prefabs/Buildingparts/Civilian/Apartments/Window/Window_village_170x142_broken_02.et" {
+   {
+    ID "619D27B1D284607A"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_33"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D284607B"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_15"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D284607D"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_131"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D29BB13C"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_137"
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp Building : "{98AFE9358BE93450}Prefabs/Buildingparts/Civilian/Apartments/Window/Window_village_170x142_broken_03.et" {
+   {
+    ID "619D27B1D28433C0"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_98"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D28433C1"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_58"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D284607F"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_84"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D284A75A"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_117"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D284CC22"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_23"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D284CC23"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_17"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D284CC2C"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_03"
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{A07C1D6910C63AAE}Prefabs/Buildingparts/Civilian/Apartments/Wall_Frame/Light_damaged/Wall_Frame_01.et" {
+   ID "619D27B1D284A75F"
+   components {
+    Hierarchy "{5E35738C1FD25ABF}" {
+     PivotID "Socket_Frame_105x60_01"
+    }
+   }
+   coords 0 0 0
+   angleY -90
+  }
+  $grp GenericEntity : "{A2728238E9D23E9C}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_150x100.et" {
+   {
+    ID "619D27B1D284A762"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      PivotID "Socket_window_150x100_04"
+     }
+    }
+   }
+   {
+    ID "619D27B1D2852518"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      PivotID "Socket_window_150x100_08"
+     }
+    }
+   }
+   {
+    ID "619D27B1D285251B"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      PivotID "Socket_window_150x100_05"
+     }
+    }
+   }
+   {
+    ID "619D27B1D285925A"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      PivotID "Socket_window_150x100_06"
+     }
+    }
+   }
+   {
+    ID "619D27B1D285925B"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      PivotID "Socket_window_150x100_03"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D285E15D"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      PivotID "Socket_window_150x100_07"
+     }
+    }
+   }
+   {
+    ID "619D27B1D28615BA"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      PivotID "Socket_window_150x100_01"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D28615BD"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      PivotID "Socket_window_150x100_11"
+     }
+    }
+   }
+   {
+    ID "619D27B1D28627EA"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      PivotID "Socket_window_150x100_05"
+     }
+    }
+   }
+   {
+    ID "619D27B1D286538F"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      PivotID "Socket_window_150x100_02"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D286C4F8"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      PivotID "Socket_window_150x100_10"
+     }
+    }
+   }
+   {
+    ID "619D27B1D286DBE7"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      PivotID "Socket_window_150x100_09"
+     }
+    }
+   }
+  }
+  GenericEntity : "{BAFBD7332176B4BE}Prefabs/Buildingparts/Civilian/Apartments/Doors/DoorSet_EXT_technic_01.et" {
+   ID "619D27B1D286C4FA"
+   components {
+    Hierarchy "{5E3D72A52B852BA4}" {
+     PivotID "Socket_DoorFrame_Entry_02"
+    }
+   }
+   coords 0 0 0
+   angleY 90
+  }
+  GenericEntity : "{CC282989AC02B580}Prefabs/Buildingparts/Civilian/Apartments/Wall_Frame/Light_damaged/Wall_Frame_02.et" {
+   ID "619D27B1D286C4F5"
+   components {
+    Hierarchy "{5E35738C1FD25ABF}" {
+     PivotID "Socket_Frame_105x60_02"
+    }
+   }
+   coords 0 0 0
+   angleY -90
+  }
+  $grp Building : "{F18D49E4CB874508}Prefabs/Buildingparts/Civilian/Apartments/Window/Window_village_170x142_broken_01.et" {
+   {
+    ID "619D27B1D28688E2"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_95"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D28688E3"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_99"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D286C4F0"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_49"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D286C4F7"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_07"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2870734"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_20"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2870735"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_104"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "619D27B1D2870737"
+    components {
+     Hierarchy "{5E35738E2E1530BC}" {
+      PivotID "Socket_window_170x142_56"
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{96D7F82C7B3BD75A}Prefabs/Buildings/Civilian/Apartments/Apartment_4-Storey/Apartment_4-Storey_v4.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,387 @@
+SCR_DestructibleBuildingEntity : "{3E540245A97AB086}Prefabs/Buildings/Civilian/Apartments/Apartment_8-Storey/Apartment_8-Storey_base.et" {
+ ID "5E8E9B187DE19384"
+ components {
+  MeshObject "{5E8CF0B8A8E34B8F}" {
+   Object "{4D384C5738FEF024}Assets/Buildings/Civilian/Apartments/Storey_8/Apartment_8_Floor_v1.xob"
+   LODFactors {
+    15 10 1.01 1
+   }
+  }
+ }
+ Flags 525315
+ {
+  GenericEntity : "{03FD9233EA4705A7}Prefabs/Buildingparts/Civilian/Apartments/Entrys/Stairs_01.et" {
+   ID "619D27B1DAB9DD0F"
+   components {
+    Hierarchy "{5E355C1C6EA145E6}" {
+     PivotID "Socket_Stairs_Entry_01"
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{0411722A418D6187}Prefabs/Buildingparts/Civilian/Apartments/Elevator/Elevator_Steel_Cable_01.et" {
+   ID "619D27B1DAB9DD04"
+   components {
+    Hierarchy "{5E7709970F3E1DC4}" {
+     PivotID "Socket_elevator"
+    }
+   }
+   coords 0 0 0
+   {
+    GenericEntity : "{0411722A418D6187}Prefabs/Buildingparts/Civilian/Apartments/Elevator/Elevator_Steel_Cable_01.et" {
+     ID "619D27B1DAB9DD1B"
+     components {
+      Hierarchy "{5E7709970F3E1DC4}" {
+       PivotID "Socket_Elevator"
+      }
+     }
+     coords 0 0 0
+     {
+      GenericEntity : "{0411722A418D6187}Prefabs/Buildingparts/Civilian/Apartments/Elevator/Elevator_Steel_Cable_01.et" {
+       ID "619D27B1DAB9D441"
+       components {
+        Hierarchy "{5E7709970F3E1DC4}" {
+         PivotID "Socket_Elevator"
+        }
+       }
+       coords 0 0 0
+       {
+        GenericEntity : "{0411722A418D6187}Prefabs/Buildingparts/Civilian/Apartments/Elevator/Elevator_Steel_Cable_01.et" {
+         ID "619D27B1DAB9D443"
+         components {
+          Hierarchy "{5E7709970F3E1DC4}" {
+           PivotID "Socket_Elevator"
+          }
+         }
+         coords 0 0 0
+         {
+          GenericEntity : "{0411722A418D6187}Prefabs/Buildingparts/Civilian/Apartments/Elevator/Elevator_Steel_Cable_01.et" {
+           ID "619D27B1DAB96F04"
+           components {
+            Hierarchy "{5E7709970F3E1DC4}" {
+             PivotID "Socket_Elevator"
+            }
+           }
+           coords 0 0 0
+           {
+            GenericEntity : "{0411722A418D6187}Prefabs/Buildingparts/Civilian/Apartments/Elevator/Elevator_Steel_Cable_01.et" {
+             ID "619D27B1DAB96F05"
+             components {
+              Hierarchy "{5E7709970F3E1DC4}" {
+               PivotID "Socket_Elevator"
+              }
+             }
+             coords 0 0 0
+             {
+              GenericEntity : "{0411722A418D6187}Prefabs/Buildingparts/Civilian/Apartments/Elevator/Elevator_Steel_Cable_01.et" {
+               ID "619D27B1DAB96F03"
+               components {
+                Hierarchy "{5E7709970F3E1DC4}" {
+                 PivotID "Socket_Elevator"
+                }
+               }
+               coords 0 0 0
+               {
+                GenericEntity : "{8406976B219E6715}Prefabs/Buildingparts/Civilian/Apartments/Elevator/Elevator_Steel_Cable_small.et" {
+                 ID "619D27B1DAB96F0E"
+                 coords 0 0 0
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  GenericEntity : "{0F1AC1EBF454F5ED}Prefabs/Buildingparts/Civilian/Apartments/Roof/Roof_Pipe.et" {
+   ID "619D27B1DAB96F0A"
+   components {
+    Hierarchy "{5E8CF0BC70917AD0}" {
+     PivotID "Socket_pipe"
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{39A193B4329FE78F}Prefabs/Buildings/Civilian/Apartments/Furniture/Z_Furniture/8-Storey_Entry/Furniture_8-Storey_Entry_v1.et" {
+   ID "619D27B1DAB96F77"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "5F19366C56C847D8"
+     {
+      GenericEntity {
+       ID "5E36D9994ED5FBAE"
+       coords -0.45 0 0
+      }
+     }
+    }
+   }
+  }
+  GenericEntity : "{39D91C420C9D55F7}Prefabs/Buildingparts/Civilian/Apartments/Elevator/Cabin_Compensator.et" {
+   ID "619D27B1DAB96FDE"
+   coords 2.835 0.026 2.753
+  }
+  GenericEntity : "{3ECC4A7E14785ABD}Prefabs/Props/Roof/Roof_PipeVent_03.et" {
+   ID "619D27B1DAB96FDB"
+   coords -2.266 23.169 4.798
+  }
+  GenericEntity : "{541C121FC375A3AF}Prefabs/Buildings/Civilian/Apartments/Furniture/Z_Furniture/Wall/SatelliteSet_v3.et" {
+   ID "619D27B1DAB96FC7"
+   coords 0 0 0
+   angleY 180
+  }
+  GenericEntity : "{62148D97A662EC6F}Prefabs/Buildings/Civilian/Apartments/Furniture/Z_Furniture/Roof/Furniture_Roof_v1.et" {
+   ID "619D27B1DAB96FC0"
+   components {
+    Hierarchy "{5F2D4764C542455D}" {
+     PivotID "Socket_extendable_02"
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{75E1E0DFA2C9B5F6}Prefabs/Buildings/Civilian/Apartments/Furniture/Z_Furniture/Storey/Furniture_5-12_v1.et" {
+   ID "619D27B1DAB96E34"
+   coords 0 0 0
+  }
+  GenericEntity : "{8CB47BDEBAFCBDF3}Prefabs/Buildings/Civilian/Apartments/Furniture/Z_Furniture/Wall/SatelliteSet_v5.et" {
+   ID "619D27B1DAB96985"
+   coords 0 0 0
+   angleY 180
+  }
+  GenericEntity : "{9B84661CCE114C4A}Prefabs/Buildingparts/Civilian/Apartments/Elevator/Elevator_Cabin_Static.et" {
+   ID "619D27B1DAB96983"
+   coords 2.836 0.757 2.736
+  }
+  $grp GenericEntity : "{B7043267A45942F8}Prefabs/Props/Roof/Roof_PipeVent_01.et" {
+   {
+    ID "619D27B1DAB93F83"
+    coords 6.348 23.169 -4.891
+   }
+   {
+    ID "619D27B1DAB9698C"
+    coords 5.666 23.169 4.748
+   }
+  }
+  GenericEntity : "{DB500687189DCDD6}Prefabs/Props/Roof/Roof_PipeVent_02.et" {
+   ID "619D27B1DAB93F85"
+   coords -3.839 23.169 -5.86
+   angleY 0
+  }
+  GenericEntity : "{DDD46A067354BBEA}Prefabs/Buildings/Civilian/Apartments/Furniture/Z_Furniture/Wall/SatelliteSet_v1.et" {
+   ID "619D27B1DAB93F86"
+   components {
+    Hierarchy "{60495CA98CF4564A}" {
+     PivotID "Socket_extendable_02"
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{E726F00B6489E5E2}Prefabs/Buildingparts/Civilian/Apartments/Pipe/Pipe_01_start.et" {
+   {
+    ID "619D27B1DAB81593"
+    components {
+     Hierarchy "{5E753E575E77D039}" {
+      PivotID "Socket_Pipe_01"
+     }
+    }
+    coords 0 0.09 0
+    {
+     GenericEntity : "{CD42FE56620009B2}Prefabs/Buildingparts/Civilian/Apartments/Pipe/Pipe_01_middle.et" {
+      ID "619D27B1DAB81592"
+      components {
+       Hierarchy "{5E753E56A7BE226F}" {
+        PivotID "Socket_next_pipe"
+       }
+      }
+      coords 0 0 0
+      {
+       GenericEntity : "{CD42FE56620009B2}Prefabs/Buildingparts/Civilian/Apartments/Pipe/Pipe_01_middle.et" {
+        ID "619D27B1DAB815AC"
+        components {
+         Hierarchy "{5E753E56A7BE226F}" {
+          PivotID "Socket_next_pipe"
+         }
+        }
+        coords 0 0 0
+        {
+         GenericEntity : "{CD42FE56620009B2}Prefabs/Buildingparts/Civilian/Apartments/Pipe/Pipe_01_middle.et" {
+          ID "619D27B1DABBF272"
+          components {
+           Hierarchy "{5E753E56A7BE226F}" {
+            PivotID "Socket_next_pipe"
+           }
+          }
+          coords 0 0 0
+          {
+           GenericEntity : "{CD42FE56620009B2}Prefabs/Buildingparts/Civilian/Apartments/Pipe/Pipe_01_middle.et" {
+            ID "619D27B1DABB81DE"
+            components {
+             Hierarchy "{5E753E56A7BE226F}" {
+              PivotID "Socket_next_pipe"
+             }
+            }
+            coords 0 0 0
+            {
+             GenericEntity : "{CD42FE56620009B2}Prefabs/Buildingparts/Civilian/Apartments/Pipe/Pipe_01_middle.et" {
+              ID "619D27B1DABB81DD"
+              components {
+               Hierarchy "{5E753E56A7BE226F}" {
+                PivotID "Socket_next_pipe"
+               }
+              }
+              coords 0 0 0
+              {
+               GenericEntity : "{CD42FE56620009B2}Prefabs/Buildingparts/Civilian/Apartments/Pipe/Pipe_01_middle.et" {
+                ID "619D27B1DABB0D9B"
+                components {
+                 Hierarchy "{5E753E56A7BE226F}" {
+                  PivotID "Socket_next_pipe"
+                 }
+                }
+                coords 0 0 0
+                {
+                 GenericEntity : "{CD42FE56620009B2}Prefabs/Buildingparts/Civilian/Apartments/Pipe/Pipe_01_middle.et" {
+                  ID "619D27B1DABB1144"
+                  components {
+                   Hierarchy "{5E753E56A7BE226F}" {
+                    PivotID "Socket_next_pipe"
+                   }
+                  }
+                  coords 0 0 0
+                  {
+                   GenericEntity : "{039BBCC156022D0D}Prefabs/Buildingparts/Civilian/Apartments/Pipe/Pipe_01_end.et" {
+                    ID "619D27B1DABB1145"
+                    components {
+                     Hierarchy "{5E753E5695D0FDBE}" {
+                      PivotID "Socket_next_pipe"
+                     }
+                    }
+                    coords 0 0 0
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "619D27B1DAB93FFA"
+    components {
+     Hierarchy "{5E753E575E77D039}" {
+      PivotID "Socket_Pipe_02"
+     }
+    }
+    coords 0 0 0
+    {
+     GenericEntity : "{CD42FE56620009B2}Prefabs/Buildingparts/Civilian/Apartments/Pipe/Pipe_01_middle.et" {
+      ID "619D27B1DAB93FFC"
+      components {
+       Hierarchy "{5E753E56A7BE226F}" {
+        PivotID "Socket_next_pipe"
+       }
+      }
+      coords 0 0 0
+      {
+       GenericEntity : "{CD42FE56620009B2}Prefabs/Buildingparts/Civilian/Apartments/Pipe/Pipe_01_middle.et" {
+        ID "619D27B1DAB93FFF"
+        components {
+         Hierarchy "{5E753E56A7BE226F}" {
+          PivotID "Socket_next_pipe"
+         }
+        }
+        coords 0 0 0
+        {
+         GenericEntity : "{CD42FE56620009B2}Prefabs/Buildingparts/Civilian/Apartments/Pipe/Pipe_01_middle.et" {
+          ID "619D27B1DAB8EC81"
+          components {
+           Hierarchy "{5E753E56A7BE226F}" {
+            PivotID "Socket_next_pipe"
+           }
+          }
+          coords 0 0 0
+          {
+           GenericEntity : "{CD42FE56620009B2}Prefabs/Buildingparts/Civilian/Apartments/Pipe/Pipe_01_middle.et" {
+            ID "619D27B1DAB8CCD7"
+            components {
+             Hierarchy "{5E753E56A7BE226F}" {
+              PivotID "Socket_next_pipe"
+             }
+            }
+            coords 0 0 0
+            {
+             GenericEntity : "{CD42FE56620009B2}Prefabs/Buildingparts/Civilian/Apartments/Pipe/Pipe_01_middle.et" {
+              ID "619D27B1DAB8CCD6"
+              components {
+               Hierarchy "{5E753E56A7BE226F}" {
+                PivotID "Socket_next_pipe"
+               }
+              }
+              coords 0 0 0
+              {
+               GenericEntity : "{CD42FE56620009B2}Prefabs/Buildingparts/Civilian/Apartments/Pipe/Pipe_01_middle.et" {
+                ID "619D27B1DAB8C1BA"
+                components {
+                 Hierarchy "{5E753E56A7BE226F}" {
+                  PivotID "Socket_next_pipe"
+                 }
+                }
+                coords 0 0 0
+                {
+                 GenericEntity : "{CD42FE56620009B2}Prefabs/Buildingparts/Civilian/Apartments/Pipe/Pipe_01_middle.et" {
+                  ID "619D27B1DAB86CF2"
+                  components {
+                   Hierarchy "{5E753E56A7BE226F}" {
+                    PivotID "Socket_next_pipe"
+                   }
+                  }
+                  coords 0 0 0
+                  {
+                   GenericEntity : "{039BBCC156022D0D}Prefabs/Buildingparts/Civilian/Apartments/Pipe/Pipe_01_end.et" {
+                    ID "619D27B1DAB86CF9"
+                    components {
+                     Hierarchy "{5E753E5695D0FDBE}" {
+                      PivotID "Socket_next_pipe"
+                     }
+                    }
+                    coords 0 0 0
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  GenericEntity : "{FAF01D33904B57E2}Prefabs/Buildings/Civilian/Apartments/Furniture/Z_Furniture/Wall/SatelliteSet_v2.et" {
+   ID "619D27B1DABB115A"
+   coords 0 0 0
+  }
+ }
+}
